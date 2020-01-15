@@ -1,0 +1,54 @@
+/* Post Starts */
+.post {
+  margin: 0 15px 0 15px;
+}
+.post .post-info-wrapper p {
+  padding-top: 0px !important;
+}
+.post p {
+  color: #404040 !important;
+}
+.post h3 {
+  font-size: 26px;
+  font-weight: 500;
+}
+#interview-section div {
+  font-size: 17px;
+  line-height: 28px;
+}
+.post #intro .image-wrapper img.circular {
+  display: block !important;
+  margin: 0 auto !important;
+  width: 250px !important;
+  height: 250px !important;
+  padding-left: 0 !important;
+  border-radius: 100%;
+  box-shadow: 0px 0px 30px #111;
+  width: 100%;
+}
+.post #intro .image-wrapper img.center-image {
+  display: block !important;
+  margin: 0 auto !important;
+  box-shadow: 0px 0px 30px #111 !important;
+  padding: 0 !important;
+  width: 60%;
+}
+
+.post-area {
+  padding: 40px;
+  width: 100%;
+  min-height: 150px;
+  background-color: white;
+  border-bottom: 1px dotted #ddd;
+}
+
+.post-area a:link, .post-area a:visited {
+  font-size: 30px;
+  color: #333;
+}
+
+.post-area a:hover {
+  color: #0D0017;
+}
+
+/* Post end */
