@@ -3,18 +3,19 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body class="d-flex flex-column">
+    <div id="page-content">
+      <header>
+        {% include navbar.html %}
+      </header>
 
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+      <main>
         {{ content }}
-      </div>
-    </main>
+      </main>
+    </div>
 
     {%- include footer.html -%}
-
+    {% include javascripts.html %}
   </body>
 
 </html>
