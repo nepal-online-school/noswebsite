@@ -1,0 +1,29 @@
+<section class="contact-section section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 contact-info mb-1">
+        <h2>Do you have any message for me?<br>Send me a mail!</h2>
+      </div>
+      <div class="col-xs-12 col-md-8">
+        <form action="https://formspree.io/contact@brgtrainings.com" method="POST">
+          <input type="hidden" name="_subject" value="[Mail From Website]" />
+          <input type="text" class="form-control mb-1" id="name" placeholder="Enter Full Name" name="Name"
+            pattern="^[A-Za-z\s]{1,}[\.]{0,1}[A-Za-z\s]{0,}$" required>
+
+          <input type="text" class="form-control mb-1" id="phone" placeholder="Enter Phone No (10 Digits)" name="Phone"
+            pattern="[0-9]{10}">
+
+          <input type="email" class="form-control mb-1" id="email" placeholder="Enter Email" name="Email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+
+          <textarea class="form-control mb-1" rows="5" id="comment" name="Message" placeholder="Type your message here ..."
+            pattern=".{3,}" required></textarea>
+
+          <div class="submit mt-3 text-center">
+            <button type="submit" class="btn btn-outline-dark rounded-0 px-4">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

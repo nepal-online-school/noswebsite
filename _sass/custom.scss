@@ -1,0 +1,102 @@
+
+
+/* Custom SCSS */
+$color1: #fff;
+$color2: #222a75;
+$color3: #0f2dff;
+$color4: red;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  // font-family: "Montserrat", Arial, sans-serif;
+  // font-size: 15px;
+}
+
+// h1, h2, h3, h4, h5, h6 {
+//   font-family: "Montserrat", Arial, sans-serif;
+// }
+
+.fa-twitter {
+  color: #38A1F3;
+}
+.fa-youtube {
+  color: red;
+}
+.fa-facebook-f {
+  color: #4267b2;
+}
+.fa-github {
+  color: #ccc;
+}
+.fa-envelope {
+  color: #ddd;
+}
+.fa-linkedin-in {
+  color: #0077B5;
+}
+
+.p-6 {
+  padding: 4em;
+}
+.px-6 {
+  padding: 0 4em;
+}
+.py-6 {
+  padding: 4em 0;
+}
+.pt-6 {
+  padding-top: 4em;
+}
+.pb-6 {
+  padding-bottom: 4em;
+}
+.p-7 {
+  padding: 5em;
+}
+.px-7 {
+  padding: 0 5em;
+}
+.px-8 {
+  padding: 0 6em;
+}
+.px-9 {
+  padding: 0 7em;
+}
+.py-7 {
+  padding: 5em 0;
+}
+.pt-7 {
+  padding-top: 5em;
+}
+.pb-7 {
+  padding-bottom: 5em;
+}
+.mt-6 {
+  margin-top: 5em;
+}
+
+#youtubeVideoModal, #facebookVideoModal {
+  top: 5%;
+
+  .modal-content {
+    background-color: transparent;
+    border: none;
+
+    .modal-header {
+      border-bottom: none;
+      padding: 0 1em;
+
+      .close {
+        color: #fff;
+        padding: 0 0.5em;
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+@import "home";
+@import "responsive";
