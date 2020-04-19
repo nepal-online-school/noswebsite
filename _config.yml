@@ -45,15 +45,15 @@ exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
 # Collections
 collections:
-  docs:
+  ruby:
     output: true
     permalink: /:collection/:path
 
 # Defaults
 defaults:
   - scope:
-      path: "_docs"
-      type: "docs"
+      path: "_ruby"
+      type: "ruby"
     values:
       layout: page
   -

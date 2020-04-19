@@ -1,20 +1,20 @@
 - title: Documentation
-  url: docs
+  url: ruby
   links:
     - title: "Getting Started"
-      url: "docs/getting-started"
+      url: "ruby/getting-started"
       children:
         - title: Features
-          url: "docs/getting-started#getting-started"
+          url: "ruby/getting-started#getting-started"
         - title: Development
-          url: "docs/getting-started#development"
+          url: "ruby/getting-started#development"
         - title: Customization
-          url: "docs/getting-started#customization"
+          url: "ruby/getting-started#customization"
     - title: "Extras"
-      url: "docs/extras"
+      url: "ruby/extras"
       children:
         - title: Quizzes
-          url: "docs/extras/example-quiz"
+          url: "ruby/extras/example-quiz"
         - title: Tags Page
           url: "tags"
     - title: "About"
