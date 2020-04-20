@@ -10,7 +10,7 @@
 @media (max-width: 768px) {
   .banner-section {
     background: url($image_base_url + "/img/bg-md.jpg") no-repeat;
-    height: 450px;
+    height: 400px;
   }
   .staticbanner {
     padding-top: 80px;
@@ -20,7 +20,7 @@
     }
 
     .hero-text-box {
-      margin-top: 2%;
+      margin-top: 10%;
       width: 80%;
       margin-left: 10%;
       padding: 2em;
@@ -105,7 +105,7 @@
   }
   .banner-section {
     background: url($image_base_url + "/img/bg-sm.jpg") no-repeat;
-    height: 480px;
+    height: 350px;
   }
   .navbar-brand {
     font-size: 35px;
@@ -116,7 +116,8 @@
     .hero-text-box {
       width: 80%;
       margin-left: 10%;
-      margin-top: 2%;
+      margin-top: -6%;
+      padding: 1.5em;
 
       h1 {
         font-size: 25px;
