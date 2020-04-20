@@ -13,7 +13,7 @@ layout: default
         <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
           <ol class="breadcrumb spb-1">
             <li class="breadcrumb-item active" aria-current="page">
-              <a href="{{ site.url }}{{ site.baseurl }}{% if page.permalink %}{{ page.url }}{% else %}{{ page.url | append: '.html' }}{% endif %}">
+              <a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
                 {{ page.title }}
               </a>
             </li>

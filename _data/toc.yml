@@ -2,22 +2,22 @@
   url: ruby
   links:
     - title: "Getting Started"
-      url: "ruby/getting-started.html"
+      url: "ruby/getting-started"
       children:
         - title: Overview
-          url: "ruby/getting-started.html#overview"
+          url: "ruby/getting-started#overview"
         - title: Install Ruby in Linux
-          url: "ruby/getting-started.html#install-ruby-in-linux"
+          url: "ruby/getting-started#install-ruby-in-linux"
         - title: Install Ruby in Windows
-          url: "ruby/getting-started.html#install-ruby-in-windows"
+          url: "ruby/getting-started#install-ruby-in-windows"
         - title: Install Ruby in macOS
-          url: "ruby/getting-started.html#install-ruby-in-macos"
+          url: "ruby/getting-started#install-ruby-in-macos"
         - title: NOTES
-          url: "ruby/getting-started.html#notes"
+          url: "ruby/getting-started#notes"
     - title: "Introduction"
-      url: "ruby/intro.html"
+      url: "ruby/intro"
       children:
         - title: Introduction
-          url: ruby/intro.html#introduction
+          url: ruby/intro#introduction
         - title: History
-          url: ruby/intro.html#history
+          url: ruby/intro#history
