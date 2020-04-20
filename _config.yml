@@ -19,7 +19,7 @@ url: "https://brgtrainings.com" # the base hostname & protocol for your site
 # feedback: true
 
 
-google-analytics: UA-162159392-2
+google_analytics: UA-162159392-2
 # Image and (square) dimension for logo (don't start with /)
 # If commented, will use material hat theme
 # logo: "assets/img/ruby-logo.png"

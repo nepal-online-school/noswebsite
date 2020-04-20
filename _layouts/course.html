@@ -13,7 +13,9 @@ layout: default
         <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
           <ol class="breadcrumb spb-1">
             <li class="breadcrumb-item active" aria-current="page">
-              <a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+              <a href="{{ site.url }}{{ site.baseurl }}{% if page.permalink %}{{ page.url }}{% else %}{{ page.url | append: '.html' }}{% endif %}">
+                {{ page.title }}
+              </a>
             </li>
           </ol>
         </nav>
@@ -27,7 +29,7 @@ layout: default
               {% for child in section.links %}
                 <div class="entry">
                   <h5>
-                      <a href="{% if child.url %}{{ site.baseurl }}{{ child.url }}{% else %}{{ child.external_url }}{% endif %}">{{ child.title }}</a>
+                    <a href="{% if child.url %}{{ site.baseurl }}{{ child.url }}{% else %}{{ child.external_url }}{% endif %}">{{ child.title }}</a>
                   </h5>
                   <p>{{ child.description }}</p>
                 </div>
