@@ -1,23 +1,23 @@
-- title: Documentation
+- title: Ruby Syllabus
   url: ruby
   links:
     - title: "Getting Started"
-      url: "ruby/getting-started"
+      url: "ruby/getting-started.html"
       children:
-        - title: Features
-          url: "ruby/getting-started#getting-started"
-        - title: Development
-          url: "ruby/getting-started#development"
-        - title: Customization
-          url: "ruby/getting-started#customization"
-    - title: "Extras"
-      url: "ruby/extras"
+        - title: Overview
+          url: "ruby/getting-started.html#overview"
+        - title: Install Ruby in Linux
+          url: "ruby/getting-started.html#install-ruby-in-linux"
+        - title: Install Ruby in Windows
+          url: "ruby/getting-started.html#install-ruby-in-windows"
+        - title: Install Ruby in macOS
+          url: "ruby/getting-started.html#install-ruby-in-macos"
+        - title: NOTES
+          url: "ruby/getting-started.html#notes"
+    - title: "Introduction"
+      url: "ruby/intro.html"
       children:
-        - title: Quizzes
-          url: "ruby/extras/example-quiz"
-        - title: Tags Page
-          url: "tags"
-    - title: "About"
-      url: "about"
-    - title: "News"
-      url: "news"
+        - title: Introduction
+          url: ruby/intro.html#introduction
+        - title: History
+          url: ruby/intro.html#history

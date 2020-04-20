@@ -5,31 +5,36 @@ layout: default
 <div class="container-fluid td-outer">
   <div class="td-main">
     <div class="row flex-xl-nowrap">
-      <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+      <div class="col-12 col-md-3 col-xl-3 td-sidebar d-print-none">
         {% include sidebar.html %}
       </div>
 
-      <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
+      <main class="col-12 col-md-9 col-xl-9 px-md-4 px-lg-5 px-xl-6" role="main">
         <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
-         <ol class="breadcrumb spb-1">
+          <ol class="breadcrumb spb-1">
             <li class="breadcrumb-item active" aria-current="page">
-        <a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+              <a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
             </li>
-    </ol>
+          </ol>
         </nav>
         <div class="td-content">
 
-        {{ content }}
+          {{ content }}
 
-          {% if section.links %}<div class="section-index">
-            <hr class="panel-line">{% for child in section.links %}
-              <div class="entry">
-                <h5>
-                    <a href="{% if child.url %}{{ site.baseurl }}{{ child.url }}{% else %}{{ child.external_url }}{% endif %}">{{ child.title }}</a>
-                </h5>
-                <p>{{ child.description }}</p>
-              </div>{% endfor %}
-          </div>{% endif %}
+          {% if section.links %}
+            <div class="section-index">
+              <hr class="panel-line">
+              {% for child in section.links %}
+                <div class="entry">
+                  <h5>
+                      <a href="{% if child.url %}{{ site.baseurl }}{{ child.url }}{% else %}{{ child.external_url }}{% endif %}">{{ child.title }}</a>
+                  </h5>
+                  <p>{{ child.description }}</p>
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
+
           {% include feedback.html %}
         </div>
       </main>

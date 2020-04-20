@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Documentation
+title: Ruby Syllabus
 permalink: /ruby/
 ---
 
-# Documentation
+# Ruby Syllabus
 
-Welcome to the {{ site.title }} Documentation pages! Here you can quickly jump to a
-particular page.
+Welcome to the syllabus of Ruby programming language.! Here you can quickly jump to a
+particular section of the syllabus.
 
 <div class="section-index">
     <hr class="panel-line">

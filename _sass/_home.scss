@@ -11,6 +11,17 @@
 .td-navbar {
   background: #003d70;
 }
+
+.navbar {
+  .navbar-brand {
+    .title {
+      color: yellow;
+      line-height: 1;
+      font-size: 25px;
+      font-family: 'Jacques Francois Shadow', cursive;
+    }
+  }
+}
 // Header SCSS
 // .navbar {
 //   height: 70px;
