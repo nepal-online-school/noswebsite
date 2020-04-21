@@ -1,23 +1,23 @@
-- title: Table of Content
+- title: Documentation
   url: toc
   links:
     - title: "Getting Started"
       url: "toc/getting-started"
       children:
-        - title: Overview
-          url: "toc/getting-started#overview"
-        - title: Install Ruby in Linux
-          url: "toc/getting-started#install-ruby-in-linux"
-        - title: Install Ruby in Windows
-          url: "toc/getting-started#install-ruby-in-windows"
-        - title: Install Ruby in macOS
-          url: "toc/getting-started#install-ruby-in-macos"
-        - title: NOTES
-          url: "toc/getting-started#notes"
-    - title: "Introduction"
-      url: "toc/intro"
+        - title: Features
+          url: "toc/getting-started#getting-started"
+        - title: Development
+          url: "toc/getting-started#development"
+        - title: Customization
+          url: "toc/getting-started#customization"
+    - title: "Extras"
+      url: "toc/extras"
       children:
-        - title: Introduction
-          url: toc/intro#introduction
-        - title: History
-          url: toc/intro#history
+        - title: Quizzes
+          url: "toc/extras/example-quiz"
+        - title: Tags Page
+          url: "tags"
+    - title: "About"
+      url: "about"
+    - title: "News"
+      url: "news"

@@ -1,10 +1,10 @@
-title: Ruby Guru
+title: Gyanguru Templage
 year: 2020
 email: contact@brgtrainings.com
 description: >-
   A self-learning platform to learn Ruby.
 baseurl: ""
-url: "https://ruby.brgtrainings.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://brgtrainings.com" # the base hostname & protocol for your site, e.g. http://example.com
 image_base_url: /assets/
 author: BRG
 author_url: https://freelancerbrg.com

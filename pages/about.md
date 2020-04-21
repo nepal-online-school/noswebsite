@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: course
 title: About
 permalink: /about/
 ---

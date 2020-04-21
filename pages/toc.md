@@ -4,10 +4,10 @@ title: Table Of Content
 permalink: /toc/
 ---
 
-# Ruby Guru Syllabus
+# Documentation
 
-Welcome to the syllabus of Ruby programming language.! Here you can quickly jump to a
-particular section of the syllabus.
+Welcome to the {{ site.title }} Documentation pages! Here you can quickly jump to a
+particular page.
 
 <div class="section-index">
     <hr class="panel-line">
