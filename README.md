@@ -1,54 +1,21 @@
-# Docsy Jekyll Theme
+# Gyanguru Template
 
-[![CircleCI](https://circleci.com/gh/vsoch/docsy-jekyll/tree/master.svg?style=svg)](https://circleci.com/gh/vsoch/docsy-jekyll/tree/master)
-<a href="https://jekyll-themes.com/docsy-jekyll/">
-    <img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
-</a>
+This is a _starter template_ for creating any of the website under [Gyanguru](https://github.com/gyanguru),
+a self-learning open platform.
 
-![https://raw.githubusercontent.com/vsoch/docsy-jekyll/master/assets/img/docsy-jekyll.png](https://raw.githubusercontent.com/vsoch/docsy-jekyll/master/assets/img/docsy-jekyll.png)
+## About Gyanguru
 
-This is a [starter template](https://vsoch.github.com/docsy-jekyll/) for a Docsy jekyll theme, based
-on the Beautiful [Docsy](https://github.com/google/docsy) that renders with Hugo. This version is intended for
-native deployment on GitHub pages. The original [Apache License](https://github.com/vsoch/docsy-jekyll/blob/master/LICENSE) is included.
+[__Gyan__](https://en.wikipedia.org/wiki/Gyan_(sanskrit)) is sanskrit term for _Knowledge_ and
+[__Guru__](https://en.wikipedia.org/wiki/Guru) is a Sanskrit term for a "teacher, guide, expert,
+or master" of certain knowledge or field.
 
-## Changes
+The __idea__ behind creating `Gyanguru` is to promote self-learning open platform where _Guru_
+is not a physical entity but web portal which possess the knowledge of specific field like any
+programming language, framework etc where students can able to self-taught themselves.
 
-The site is intended for purely documentation, so while the front page banner
-is useful for business or similar, this author (@vsoch) preferred to have
-the main site page go directly to the Documentation view. Posts
-are still provided via a feed.
-
-## Usage
-
-### 1. Get the code
-
-You can clone the repository right to where you want to host the docs:
-
-```bash
-git clone https://github.com/vsoch/docsy-jekyll.git docs
-cd docs
-```
-
-### 2. Customize
-
-To edit configuration values, customize the [_config.yml](https://github.com/vsoch/docsy-jekyll/blob/master/_config.yml).
-To add pages, write them into the [pages](https://github.com/vsoch/docsy-jekyll/blob/master/pages) folder. 
-You define urls based on the `permalink` attribute in your pages,
-and then add them to the navigation by adding to the content of [_data/toc.myl](https://github.com/vsoch/docsy-jekyll/blob/master/_data/toc.yml).
-The top navigation is controlled by [_data/navigation.yml](https://github.com/vsoch/docsy-jekyll/blob/master/_data/navigation.yml)
-
-### 3. Options
-
-Most of the configuration values in the [_config.yml](https://github.com/vsoch/docsy-jekyll/blob/master/_config.yml) are self explanatory,
-and for more details, see the [getting started page](https://vsoch.github.io/docsy-jekyll/docs/getting-started)
-rendered on the site.
-
-### 4. Serve
-
-Depending on how you installed jekyll:
-
-```bash
-jekyll serve
-# or
-bundle exec jekyll serve
-```
+To know more about __Guru__, in pan-[Indian traditions](https://en.wikipedia.org/wiki/Indian_religions), Guru is
+more than a teacher, in Sanskrit guru means the one who dispels the darkness and takes towards light,
+traditionally a reverential figure to the student, with the guru serving as a "counselor, who helps mold values,
+shares experiential knowledge as much as literal knowledge, an exemplar in life, an inspirational source and who
+helps in the spiritual evolution of a student". A guru is also one's spiritual guide, who helps one to discover
+the same potentialities that the guru has already realized. [Source](https://en.wikipedia.org/wiki/Guru)

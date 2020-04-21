@@ -1,4 +1,4 @@
-title: Gyanguru Templage
+title: Gyanguru Template
 year: 2020
 email: contact@brgtrainings.com
 description: >-
@@ -11,9 +11,9 @@ author_url: https://freelancerbrg.com
 
 baseurl: ""
 
-repo: "https://github.com/gyanguru/rubyguru"
+repo: "https://github.com/gyanguru/gyangurutemplate"
 github_user: "gyanguru"
-github_repo: "rubyguru"
+github_repo: "gyangurutemplate"
 
 # Should there be feedback buttons at the bottom of pages?
 # feedback: true
