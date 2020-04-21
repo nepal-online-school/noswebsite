@@ -44,7 +44,7 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 
 For more information, proceed to [RVM website][rvm-link]{:target="_blank"}.
 
-{% include utility/section-divider.html %}
+{% include util/section-divider.html %}
 
 ## Install Ruby in Windows
 
@@ -54,7 +54,7 @@ important documentation, and more.
 
 Just download the _RubyInstaller_ binary and run it to install like a normal windows software.
 
-{% include utility/section-divider.html %}
+{% include util/section-divider.html %}
 
 ## Install Ruby in macOS
 

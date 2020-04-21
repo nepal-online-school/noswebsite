@@ -1,23 +1,23 @@
-- title: Ruby Syllabus
-  url: ruby
+- title: Table of Content
+  url: toc
   links:
     - title: "Getting Started"
-      url: "ruby/getting-started"
+      url: "toc/getting-started"
       children:
         - title: Overview
-          url: "ruby/getting-started#overview"
+          url: "toc/getting-started#overview"
         - title: Install Ruby in Linux
-          url: "ruby/getting-started#install-ruby-in-linux"
+          url: "toc/getting-started#install-ruby-in-linux"
         - title: Install Ruby in Windows
-          url: "ruby/getting-started#install-ruby-in-windows"
+          url: "toc/getting-started#install-ruby-in-windows"
         - title: Install Ruby in macOS
-          url: "ruby/getting-started#install-ruby-in-macos"
+          url: "toc/getting-started#install-ruby-in-macos"
         - title: NOTES
-          url: "ruby/getting-started#notes"
+          url: "toc/getting-started#notes"
     - title: "Introduction"
-      url: "ruby/intro"
+      url: "toc/intro"
       children:
         - title: Introduction
-          url: ruby/intro#introduction
+          url: toc/intro#introduction
         - title: History
-          url: ruby/intro#history
+          url: toc/intro#history

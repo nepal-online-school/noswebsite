@@ -14,7 +14,7 @@ excluded_in_search: true
     <a href="{{- site.url -}}{{- post.url -}}">{{- post.title -}}</a>
     <time style="font-style:italic; float:right" datetime="{{- post.date | date_to_xmlschema -}}"> {{- post.date | date: "%B %d, %Y" -}}</time>
 </div>{%- endfor -%}
-{% for doc in site.ruby %}{% if doc.tags contains tag %}
+{% for doc in site.toc %}{% if doc.tags contains tag %}
 <div class="tag-entry">
     <a href="{{- site.baseurl -}}{{- doc.url -}}">{{ doc.title }}</a>
         <time style="font-style:italic; float:right" datetime="{{- doc.date | date_to_xmlschema -}}"> {{- doc.date | date: "%B %d, %Y" -}}</time>

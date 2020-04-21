@@ -1,23 +1,22 @@
-title: BRG Trainings
+title: Ruby Guru
 year: 2020
 email: contact@brgtrainings.com
 description: >-
-  I provide high quality and guided trainings in the programming and
-  software development field.
+  A self-learning platform to learn Ruby.
 baseurl: ""
-url: "https://brgtrainings.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ruby.brgtrainings.com" # the base hostname & protocol for your site, e.g. http://example.com
 image_base_url: /assets/
 author: BRG
 author_url: https://freelancerbrg.com
 
 baseurl: ""
 
-# This is mostly for testing
-url: "https://brgtrainings.com" # the base hostname & protocol for your site
+repo: "https://github.com/gyanguru/rubyguru"
+github_user: "gyanguru"
+github_repo: "rubyguru"
 
 # Should there be feedback buttons at the bottom of pages?
 # feedback: true
-
 
 google_analytics: UA-162159392-2
 # Image and (square) dimension for logo (don't start with /)
@@ -45,15 +44,15 @@ exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
 # Collections
 collections:
-  ruby:
+  toc:
     output: true
     permalink: /:collection/:path
 
 # Defaults
 defaults:
   - scope:
-      path: "_ruby"
-      type: "ruby"
+      path: "_toc"
+      type: "toc"
     values:
       layout: page
   -

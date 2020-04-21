@@ -1,7 +1,7 @@
 ---
 title: Search
 sitemap: false
-permalink: /ruby/search/
+permalink: /search/
 not_editable: true
 excluded_in_search: true
 ---
@@ -15,7 +15,7 @@ excluded_in_search: true
 
 <script>
 	window.data = {
-		{% for post in site.ruby %}
+		{% for post in site.toc %}
 				{% unless post.excluded_in_search %}
 					{% if added %},{% endif %}
 					{% assign added = false %}
