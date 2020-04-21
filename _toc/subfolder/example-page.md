@@ -1,6 +1,7 @@
 ---
 title: A Subfoler Nested Page
 description: An example of a a nested page in a subfolder.
+permalink: /toc/subfolder/example-page/
 ---
 
 # A Nested Page in a Subfolder

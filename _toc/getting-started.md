@@ -5,6 +5,7 @@ tags:
  - jekyll
  - github
 description: Getting started with Docsy Jekyll
+permalink: /toc/getting-started/
 ---
 
 # Getting Started
@@ -78,7 +79,7 @@ getting started page for sherlock:
 {% raw %}[example](clusters/sherlock/getting-started.md){% endraw %}
 ```
 
-[Here](example-page) is an example link to a relative path of a file (`example-page.md`)
+[Here](../example-page) is an example link to a relative path of a file (`example-page.md`)
 in the same directory, and from that page you can test linking to a subfoldr.
 In the case of not having a subfolder, we could write the link out directly:
 
@@ -89,7 +90,7 @@ In the case of not having a subfolder, we could write the link out directly:
 or just put the relative path:
 
 ```
-{% raw %}[Here](example-page){% endraw %}
+{% raw %}[Here](../example-page){% endraw %}
 ```
 
 or better, there is a shortand trick! We can use the provided "includes"

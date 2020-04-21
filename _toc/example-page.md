@@ -2,6 +2,7 @@
 title: A Nested Page
 date: 15th April, 2020 12:00:00
 description: An example of a nested page
+permalink: /toc/example-page/
 ---
 
 # A Nested Page
@@ -23,12 +24,12 @@ docs/
      example-page.md  (-- we want to link here
 ```
 
-You can provide the relative path to the file, like `subfolder/example-page.md`
+You can provide the relative path to the file, like `../subfolder/example-page.md`
 and Jekyll will handle parsing it. For example:
 
- - [here is that link](subfolder/example-page)
+ - [here is that link](../subfolder/example-page)
 
-And {% include doc.html name="here" path="subfolder/example-page" %} is the same link,
+And {% include doc.html name="here" path="../subfolder/example-page" %} is the same link,
 but generated with the include statement:
 
 ```
