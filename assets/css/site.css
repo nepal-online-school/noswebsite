@@ -15545,12 +15545,12 @@ a.text-dark:focus {
     .td-content>h2,
     .td-content>ul,
     .td-content>ol,
-    .td-content>p,
+    /* .td-content>p, */
     .td-content>blockquote,
     .td-content>dl dd,
     .td-content .footnotes,
     .td-content>.alert {
-        max-width: 80%
+        max-width: 90%
     }
 }
 

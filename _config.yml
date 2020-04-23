@@ -1,19 +1,19 @@
-title: Gyanguru Template
+title: RubyGuru
 year: 2020
 email: contact@brgtrainings.com
 description: >-
-  A self-learning platform to learn Ruby.
+  A self-learning open platform to learn Ruby.
 baseurl: ""
-url: "https://brgtrainings.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ruby.brgtrainings.com" # the base hostname & protocol for your site, e.g. http://example.com
 image_base_url: /assets/
 author: BRG
 author_url: https://freelancerbrg.com
 
 baseurl: ""
 
-repo: "https://github.com/gyanguru/gyangurutemplate"
+repo: "https://github.com/gyanguru/rubyguru"
 github_user: "gyanguru"
-github_repo: "gyangurutemplate"
+github_repo: "rubyguru"
 
 # Should there be feedback buttons at the bottom of pages?
 # feedback: true

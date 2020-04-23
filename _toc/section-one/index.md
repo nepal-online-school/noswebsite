@@ -1,18 +1,15 @@
 ---
-layout: page
-title: Table Of Contents
-permalink: /toc/
+title: Section One
+date: 15th April, 2020 1:00:00
+type: section
+description: Section One
+permalink: /toc/section-one/
 ---
-
-# Table Of Contents
-
-Welcome to the {{ site.title }} Documentation pages! Here you can quickly jump to a
-particular page.
 
 <div class="section-index">
   <hr class="panel-line">
   {% for page in site.toc %}
-    {% if page.type != "section" %}
+    {% if page.parent == "section-one" %}
       <div class="entry">
         <h5>
           <a href="{{ page.url | remove: 'index' | prepend: site.baseurl }}">{{ page.title }}</a>

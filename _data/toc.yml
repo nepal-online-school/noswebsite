@@ -1,23 +1,25 @@
-- title: Documentation
+- title: Table of Contents
   url: toc
   links:
-    - title: "Getting Started"
-      url: "toc/getting-started"
+    - title: Section One
+      url: toc/section-one
       children:
-        - title: Features
-          url: "toc/getting-started#getting-started"
-        - title: Development
-          url: "toc/getting-started#development"
-        - title: Customization
-          url: "toc/getting-started#customization"
-    - title: "Extras"
-      url: "toc/extras"
+        - title: Getting Started
+          url: toc/section-one/getting-started
+        - title: Introduction
+          url: toc/section-one/intro
+        - title: History
+          url: toc/section-one/history
+        - title: Features of Ruby
+          url: toc/section-one/features
+        - title: Hello World
+          url: toc/section-one/helloworld
+        - title: Interactive Ruby(IRB)
+          url: toc/section-one/irb
+    - title: Section Two
+      url: toc/section-two
       children:
-        - title: Quizzes
-          url: "toc/extras/example-quiz"
-        - title: Tags Page
-          url: "tags"
-    - title: "About"
-      url: "about"
-    - title: "News"
-      url: "news"
+        - title: Blocks
+          url: toc/section-two/block
+        - title: Array
+          url: toc/section-two/array

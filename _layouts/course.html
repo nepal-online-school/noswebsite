@@ -37,18 +37,11 @@ layout: default
 
           {{ content }}
 
-          {% if section.links %}
-            <div class="section-index">
-              <hr class="panel-line">
-              {% for child in section.links %}
-                <div class="entry">
-                  <h5>
-                    <a href="{% if child.url %}{{ site.baseurl }}{{ child.url }}{% else %}{{ child.external_url }}{% endif %}">{{ child.title }}</a>
-                  </h5>
-                  <p>{{ child.description }}</p>
-                </div>
-              {% endfor %}
-            </div>
+          {% if page.prev_link %}
+            <a href="{{ page.prev_link }}" class="btn btn-primary px-4 mr-5" role="button"><i class="fas mr-2 fa-backward"></i>Previous</a>
+          {% endif %}
+          {% if page.next_link %}
+            <a href="{{ page.next_link }}" class="btn btn-primary px-4" role="button">Next <i class="fas ml-1 fa-forward"></i></a>
           {% endif %}
 
           {% include feedback.html %}

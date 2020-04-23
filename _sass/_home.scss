@@ -1,7 +1,5 @@
-.banner-section {
-  background: url($image_base_url + "/img/bg.jpg") no-repeat;
-  background-size: cover !important;
-  height: 550px;
+.home-section {
+  margin-top: 64px;
 }
 
 .section-padding {
@@ -22,114 +20,55 @@
     }
   }
 }
-// Header SCSS
-// .navbar {
-//   height: 70px;
-//   padding: 0;
-//   background: transparent;
-// }
-// nav.navbar.fixed-top.scrolled {
-//   box-shadow: -21.213px 21.213px 30px 0 rgba(158, 158, 158, 0.3);
-//   background: #404044;
-//   transition: all 0.5s;
-// }
-// .navbar-nav .nav-item.active .nav-link {
-//   color: #fff;
-//   font-weight: 800;
-// }
-// .navbar-brand {
-//   height: inherit;
-//   padding-bottom: 0px;
-//   font-family: 'Niconne', cursive;
-//   font-size: 45px;
-//   color: yellow;
 
-//   &:hover {
-//     color: yellow;
-//   }
-// }
-// .navbar-brand img {
-//   height: 90%;
-//   margin-left: 20%;
-// }
-// .navbar-nav {
-//   margin-left: 30%;
-// }
-// .navbar-toggler {
-//   margin-right: 10px;
-// }
-// .navbar-collapse .navbar-nav a {
-//   color: #fff;
-//   font-size: 14px;
-// }
-// .navbar-collapse .nav-item {
-//   margin-right: 10px;
-// }
-// .navbar-collapse .nav-link {
-//   padding: 5px;
-//   font-weight: 500;
-//   text-transform: uppercase;
-// }
-// .navbar .dropdown {
-//   margin-top: 3px;
-// }
-// .navbar .dropdown .dropdown-menu {
-//   width: 200px;
-// }
-// .navbar .dropdown .dropdown-menu li:hover {
-//   background: #eaeaea;
-// }
+#TableOfContents #TOC {
+  a.md-nav__link {
+    color: #333;
+    font-size: 18px;
+  }
+  a.md-nav__link.nav-h2 {
+    color: #666;
+    font-size: 16px;
+  }
+  a.md-nav__link.nav-h3 {
+    color: #888;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+}
+
+.td-content {
+  p {
+    color: #666;
+  }
+  blockquote p {
+    color: #999;
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
+
+
 .btn.active:focus {
   box-shadow: none !important;
 }
 
-.staticbanner {
-  background-color: rgba(0,0,0,0.4);
-  position: relative;
-  color: white;
-  height: 100%;
+.td-content>h2:not(:first-child) {
+  margin-top: 2rem;
+}
 
-  .inner {
-    padding-top: 170px;
-    position: absolute;
-    z-index: 10;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
+.welcome-message {
+  background-color: #eee;
+
+  .caption {
+    font-family: 'Jacques Francois Shadow', cursive;
+    color: #fff;
   }
-
-  .hero-text-box {
-    padding: 3em 2em;
-    margin-top: 4%;
-    width: 60%;
-    margin-left: 20%;
-    background: rgba(0,0,0,0.5);
-
-    h1 {
-      display: block;
-      color: #fff;
-      line-height: 1;
-      font-size: 50px;
-      font-weight: 600;
-      font-family: 'Jacques Francois Shadow', cursive;
-    }
-    h2 {
-      display: block;
-      color: #fff;
-      font-size: 15px;
-      font-weight: 500;
-      line-height: 25px;
-      margin-top: 10px;
-    }
-    .tagline {
-      color: yellow;
-      font-size: 20px;
-      font-weight: 500;
-      font-style: italic;
-      margin-top: 25px;
-      font-family: 'Gotu', sans-serif;
-    }
+  .tagline {
+    color: yellow;
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Gotu', sans-serif;
   }
 }
 
@@ -141,79 +80,7 @@
   font-weight: 600;
 }
 
-.about-section {
-  .about_text {
-    .primary-text {
-      color: #333;
-      font-size: 18px;
-    }
-  }
-  .about_image {
-    padding-top: 20px;
-
-    img {
-      height: 350px;
-      width: auto;
-    }
-  }
-}
-
-.elevator-pitch {
-  .container {
-    width: 55%;
-  }
-  .pitch-text {
-    background: #fff;
-    color: #777;
-    margin-top: -45px;
-    border-radius: 100px;
-    padding: 30px 4em;
-    position: relative;
-    z-index: 20;
-    box-shadow: 0px 20px 50px rgba(153, 153, 153, 0.2);
-    border: 1px solid rgba(214, 214, 214, 0.11);
-
-    .fas {
-      font-size: 15px;
-    }
-    .quote-text {
-      font-size: 1.5em;
-    }
-  }
-}
-
-.learn-section {
-  .card {
-    border: none;
-  }
-  img {
-    margin: auto;
-  }
-  .ruby-img {
-    height: 150px;
-    width: 170px;
-  }
-}
-
-.contact-section {
-  .contact-info {
-    color: #666;
-    // border-radius: 0.5rem;
-
-    .fas, .fab {
-      font-size: 2em;
-    }
-  }
-  .form-control {
-    font-size: 13px;
-    border-radius: 0;
-  }
-}
-
 .home-section {
-  .post-list {
-    list-style: none;
-  }
 }
 
 // footer css
