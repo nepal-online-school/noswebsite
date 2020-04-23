@@ -696,7 +696,10 @@ pre code {
 
 @media(min-width:576px) {
     .container {
-        max-width: 540px
+        max-width: 540px;
+    }
+    .td-sidebar-nav__section ul {
+        padding-left: .5rem !important;
     }
 }
 
@@ -18072,7 +18075,8 @@ html body .md-typeset .headerlink {
 
 .td-sidebar-nav__section ul {
     padding: 0;
-    margin: 0
+    margin: 0;
+    padding-left: 0.5em;
 }
 
 @media(min-width:768px) {

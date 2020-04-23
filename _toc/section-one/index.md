@@ -6,7 +6,7 @@ description: Section One - getting familiar with language
 permalink: /toc/section-one/
 ---
 
-# Welcome to Section One - getting familiar with language
+# Welcome to Section One (getting familiar with language)
 
 __Hello!__
 
