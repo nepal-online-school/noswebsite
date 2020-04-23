@@ -13,13 +13,13 @@ next_link: /toc/section-one/intro
 
 # Getting Started
 
-You can use several tools to install Ruby. This page describes how to install Ruby in Linux, macOS or Windows.
-There are many ways to install Ruby in each operating systems. I have listed following ways which I would
-recommend.
+To get Ruby into your system, you need to first install it and there are several ways and/or tools to do it. This
+page describes how to install Ruby in Linux, macOS or Windows. There are many ways to install Ruby in each
+operating systems. I have listed following ways which I would recommend.
 
 ## Install Ruby in Linux
 
-The most recommended way to install Ruby in Linux through [RVM][rvm-link]{:target="_blank"}.
+The most recommended way to install Ruby in Linux is through [RVM][rvm-link]{:target="_blank"}.
 Although, each operating system has their own package manager through which you can install Ruby.
 Like using `apt` in Ubuntu as
 ```
@@ -31,13 +31,15 @@ It is required while working in many projects having different Ruby versions.
 
 ### Install GPG keys
 
-As a first step install GPG keys used to verify installation package:
+As a first step, install GPG keys used to verify installation package:
 
 ```
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 ```
 
 ### Install RVM stable with Ruby:
+
+Then, run following command to get the latest stable version Ruby.
 
 ```
 \curl -sSL https://get.rvm.io | bash -s stable --ruby
@@ -62,7 +64,7 @@ Just download the _RubyInstaller_ binary and run it to install like a normal win
 The recommended way to install Ruby in macOS is through [RVM][rvm-link]{:target="_blank"}.
 Follow the steps mentioned in [`Install Ruby in Linux`](#install-ruby-in-linux) section.
 
-Although, if you can also install Ruby through `brew` as
+Although, if you want to use native package manager, you can also install Ruby through `brew` as
 ```
 brew install ruby
 ```
