@@ -11,6 +11,8 @@ author_url: https://freelancerbrg.com
 
 baseurl: ""
 
+future: true
+
 repo: "https://github.com/gyanguru/rubyguru"
 github_user: "gyanguru"
 github_repo: "rubyguru"

@@ -19,7 +19,7 @@
     - title: Section Two
       url: toc/section-two
       children:
-        - title: Blocks
-          url: toc/section-two/block
-        - title: Array
-          url: toc/section-two/array
+        - title: Datatypes
+          url: toc/section-two/datatypes
+        - title: Naming Conventions
+          url: toc/section-two/naming-conventions

@@ -1,7 +1,10 @@
 <div class="collapse" id="{{ include.id }}">
   <div class="highlight">
     <code>
-      {{ include.output }}
+      {% assign lines = include.output | split: "\n" %}
+      {% for line in lines %}
+        {{ line }}<br>
+      {% endfor %}
     </code>
   </div>
 </div>

@@ -27,11 +27,13 @@ Although, you can give any name to file. I have used `hello`.
 By convention, Ruby source files have `.rb` file extension.
 
 Then, type following line in the file:
+
 ```ruby
 puts 'Hello World' # or puts "Hello World"
 ```
 
 Run the program in the terminal or shell as:
+
 ```shell
 ruby hello.rb
 ```
