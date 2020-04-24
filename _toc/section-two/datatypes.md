@@ -15,7 +15,7 @@ tags:
 description: Data Types in Ruby language
 permalink: /toc/section-two/datatypes/
 prev_link: /toc/section-two/
-next_link: /toc/section-two/naming-conventions
+# next_link: /toc/section-two/naming-conventions
 ---
 
 # Data Types in Ruby

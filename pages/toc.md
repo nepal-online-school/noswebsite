@@ -6,8 +6,7 @@ permalink: /toc/
 
 # Table Of Contents
 
-Welcome to the {{ site.title }} Documentation pages! Here you can quickly jump to a
-particular page.
+Welcome to the {{ site.title }} learning platform! Here you can quickly jump to a particular section.
 
 <div class="section-index">
   <hr class="panel-line">
@@ -17,7 +16,7 @@ particular page.
         <h5>
           <a href="{{ page.url | remove: 'index' | prepend: site.baseurl }}">{{ page.title }}</a>
         </h5>
-        <p>{{ page.description }}</p>
+        <p class="mb-0">{{ page.description }}</p>
       </div>
     {% endif %}
   {% endfor %}

@@ -6,10 +6,6 @@
   padding: 80px 0px;
 }
 
-.td-navbar {
-  background: #003d70;
-}
-
 .navbar {
   .navbar-brand {
     .title {
@@ -19,6 +15,16 @@
       font-family: 'Jacques Francois Shadow', cursive;
     }
   }
+}
+
+.site-color {
+  color: #6d161e;
+}
+
+.lang-logo {
+  height: 165px;
+  width: 150x;
+  margin: auto;
 }
 
 #TableOfContents #TOC {
@@ -48,16 +54,7 @@
   }
 }
 
-
-.btn.active:focus {
-  box-shadow: none !important;
-}
-
-.td-content>h2:not(:first-child) {
-  margin-top: 2rem;
-}
-
-.welcome-message {
+.static-banner {
   background-color: #eee;
 
   .caption {
@@ -70,6 +67,34 @@
     font-style: italic;
     font-family: 'Gotu', sans-serif;
   }
+}
+
+.welcome-message {
+  .main-text {
+    font-size: 2.5em;
+    font-weight: 600;
+  }
+  .lang-name {
+    font-weight: 600;
+  }
+  .guru-name {
+    font-weight: 800;
+    // font-size: 2.7em;
+  }
+}
+
+.encourage-text {
+  p {
+    font-size: 18px;
+  }
+}
+
+.btn.active:focus {
+  box-shadow: none !important;
+}
+
+.td-content>h2:not(:first-child) {
+  margin-top: 2rem;
 }
 
 .section-heading {
