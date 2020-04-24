@@ -25,7 +25,7 @@ google_analytics: UA-162159392-2
 # If commented, will use material hat theme
 # logo: "assets/img/ruby-logo.png"
 logo_pixels: 34
-color: "#30638e"
+color: "#6d161e"
 # color: "#8c1515" # primary color for header, buttons
 
 # Build settings
