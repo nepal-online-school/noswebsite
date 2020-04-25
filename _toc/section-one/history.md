@@ -7,7 +7,7 @@ tags:
 description: History of Ruby Language
 permalink: /toc/section-one/history/
 prev_link: /toc/section-one/intro
-next_link: /toc/section-one/irb
+next_link: /toc/section-one/features
 ---
 
 # History of Ruby Language
