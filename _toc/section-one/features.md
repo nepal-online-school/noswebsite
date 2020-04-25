@@ -1,7 +1,7 @@
 ---
 title: Features of Ruby
 date: 20th April, 2020 02:00:00
-parent: section-one
+parent: /toc/section-one/
 tags:
  - features
 description: Features of Ruby Language
@@ -106,4 +106,3 @@ Ruby is available in most of the available OS today including Windows, macOS and
 Ruby support garbage collection of unused objects automatically. Programmers need not to release objects manually.
 The strategies of Garbage collection has evolved from Mark & Sweep to Incremental Sweep in Ruby 2.2. More can be
 found [here](https://blog.heroku.com/incremental-gc).
-

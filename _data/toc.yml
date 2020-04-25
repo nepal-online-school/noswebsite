@@ -21,5 +21,7 @@
       children:
         - title: Datatypes
           url: toc/section-two/datatypes
-        # - title: Naming Conventions
-        #   url: toc/section-two/naming-conventions
+        - title: Naming Conventions
+          url: toc/section-two/naming-conventions
+        - title: Variables and Constants
+          url: toc/section-two/variables-constants

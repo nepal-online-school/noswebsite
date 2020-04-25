@@ -20,7 +20,7 @@ github_repo: "rubyguru"
 # Should there be feedback buttons at the bottom of pages?
 # feedback: true
 
-google_analytics: UA-162159392-2
+google_analytics: UA-164576022-2
 # Image and (square) dimension for logo (don't start with /)
 # If commented, will use material hat theme
 # logo: "assets/img/ruby-logo.png"

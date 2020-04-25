@@ -1,7 +1,7 @@
 ---
 title: Interactive Ruby
 date: 21th April, 2020 3:00:00
-parent: section-one
+parent: /toc/section-one/
 tags:
  - irb
 description: Interactive Ruby

@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 date: 15th April, 2020 1:00:00
-parent: section-one
+parent: /toc/section-one/
 tags:
   - installation
   - rvm

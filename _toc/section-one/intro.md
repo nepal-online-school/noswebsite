@@ -1,7 +1,7 @@
 ---
 title: Introduction
 date: 15th April, 2020 02:00:00
-parent: section-one
+parent: /toc/section-one/
 tags:
  - matz
 description: Introduction of Ruby Language

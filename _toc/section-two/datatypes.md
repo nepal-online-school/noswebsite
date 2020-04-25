@@ -1,7 +1,7 @@
 ---
 title: Data Types
 date: 23th April, 2020 02:00:00
-parent: section-two
+parent: /toc/section-two/
 tags:
  - datatypes
  - number
@@ -15,7 +15,7 @@ tags:
 description: Data Types in Ruby language
 permalink: /toc/section-two/datatypes/
 prev_link: /toc/section-two/
-# next_link: /toc/section-two/naming-conventions
+next_link: /toc/section-two/naming-conventions
 ---
 
 # Data Types in Ruby

@@ -22,7 +22,7 @@ simple, friendly and easy to use programming language.
 <div class="section-index">
   <hr class="panel-line">
   {% for page in site.toc %}
-    {% if page.parent == "section-one" %}
+    {% if page.parent == "/toc/section-one/" %}
       <div class="entry">
         <h5>
           <a href="{{ page.url | remove: 'index' | prepend: site.baseurl }}">{{ page.title }}</a>

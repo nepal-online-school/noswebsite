@@ -27,6 +27,12 @@ layout: default
         <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
           <ol class="breadcrumb spb-1">
             <li class="breadcrumb-item active" aria-current="page">
+              {% if page.parent %}
+                <a href="{{ site.url }}{{ site.baseurl }}{{ page.parent }}">
+                  {{ page.parent  | remove: "/toc" | remove: "/" | replace: "-", " " | capitalize }}
+                </a>
+                <i class="fas fa-chevron-right ml-1"></i>
+              {% endif %}
               <a href="{{ site.url }}{{ site.baseurl }}{{ page.url | remove: 'index' }}">
                 {{ page.title }}
               </a>

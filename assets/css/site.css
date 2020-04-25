@@ -18104,8 +18104,9 @@ html body .md-typeset .headerlink {
 }
 
 .td-sidebar-nav .td-sidebar-link__page {
-    color: #495057;
-    font-weight: 300
+  color: #495057;
+  font-weight: 300;
+  font-size: 14px;
 }
 
 .td-sidebar-nav a:hover {

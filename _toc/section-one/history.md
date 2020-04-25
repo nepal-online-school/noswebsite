@@ -1,7 +1,7 @@
 ---
 title: History
 date: 16th April, 2020 02:00:00
-parent: section-one
+parent: /toc/section-one/
 tags:
  - history
 description: History of Ruby Language
