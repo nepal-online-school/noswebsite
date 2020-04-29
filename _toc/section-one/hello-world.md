@@ -46,6 +46,7 @@ ruby hello.rb
 ## Key points to understand
 
 - File extension of Ruby program is `.rb`
-- To print string into the standard output (i.e monitor), you can use `puts`, short form of `put string`.
+- To print strings into the standard output (i.e terminal), you can use `puts`,
+  a portmanteau of "put string".
 - `#` is used as comment operator
 - Single and double quotes can be used to define String.
