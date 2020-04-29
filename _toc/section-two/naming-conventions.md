@@ -3,7 +3,7 @@ title: Naming Conventions
 date: 23th April, 2020 22:00:00
 parent: /toc/section-two/
 tags:
- - namingconventions
+ - naming conventions
 description: Naming conventions in Ruby
 permalink: /toc/section-two/naming-conventions/
 prev_link: /toc/section-two/datatypes/

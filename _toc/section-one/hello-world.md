@@ -3,7 +3,7 @@ title: Hello World
 date: 21th April, 2020 02:00:00
 parent: /toc/section-one/
 tags:
- - helloworld
+ - hello world
 description: Hello World program in Ruby
 permalink: /toc/section-one/hello-world/
 prev_link: /toc/section-one/features/
