@@ -43,6 +43,8 @@ ruby hello.rb
 
 ##### Congrats! You just wrote your first program in Ruby.
 
+{% include quiz.html file='hello-world-quiz' %}
+
 ## Key points to understand
 
 - File extension of Ruby program is `.rb`

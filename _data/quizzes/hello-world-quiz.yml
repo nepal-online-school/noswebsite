@@ -1,0 +1,45 @@
+title: Quiz - Hello World
+randomized: false
+questions:
+
+ - type: "multiple-choice"
+   question: "Which of the following ways can we output a string with puts?"
+   items:
+    - choice: "puts 'some string here'"
+      correct: true
+    - choice: "puts some string here"
+      correct: false
+    - choice: 'puts "some string here"'
+      correct: true
+   followup: There are other ways to quote as well, but these are the two
+     simplest and most common ways to do this.
+
+ - type: "multiple-choice"
+   question: "Single and double strings can be used to define a String?"
+   items:
+    - choice: True
+      correct: true
+    - choice: False
+      correct: false
+   followup: |
+     These are not the only ways to create a string.
+
+ - type: "multiple-choice"
+   question: "Ruby uses // for for single line comments?"
+   items:
+    - choice: True
+      correct: false
+    - choice: False
+      correct: true
+   followup: |
+     In Ruby we use \# for single line comments
+
+ - type: "multiple-choice"
+   question: "We use .ruby as our extension for Ruby programs."
+   items:
+    - choice: True
+      correct: false
+    - choice: False
+      correct: true
+   followup: |
+     The exention for Ruby programs is ".rb".
