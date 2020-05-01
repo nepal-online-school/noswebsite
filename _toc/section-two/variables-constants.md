@@ -7,6 +7,7 @@ tags:
 description: Variables and Constants in Ruby
 permalink: /toc/section-two/variables-constants/
 prev_link: /toc/section-two/naming-conventions/
+next_link: /toc/section-two/getting-input/
 ---
 
 # Variable in Ruby

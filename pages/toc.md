@@ -8,10 +8,15 @@ permalink: /toc/
 
 Welcome to the {{ site.title }} learning platform! Here you can quickly jump to a particular section.
 
+{% include notice.html
+    primary="The content of the syllabus is still in building stage."
+    secondary="However, you can still begin your learning."
+%}
+
 <div class="section-index">
   <hr class="panel-line">
   {% for page in site.toc %}
-    {% if page.type != "section" %}
+    {% if page.type == "section" %}
       <div class="entry">
         <h5>
           <a href="{{ page.url | remove: 'index' | prepend: site.baseurl }}">{{ page.title }}</a>

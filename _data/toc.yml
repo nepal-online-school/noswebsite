@@ -25,3 +25,5 @@
           url: toc/section-two/naming-conventions
         - title: Variables and Constants
           url: toc/section-two/variables-constants
+        - title: Getting Input
+          url: toc/section-two/getting-input
