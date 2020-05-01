@@ -30,9 +30,11 @@ RubyGuru
 Hello, RubyGuru, how are you
 ```
 
-__NOTE:__ The reason for using `chomp` after `gets` is that `gets` will read the data entered by
-user and store into variable `name` along with new line char `\n`. The method `chomp` will remove
-the trailing new line char and store only entered data into `name`.
+{% include util/note.html
+    note="The reason for using 'chomp' after 'gets' is that 'gets' will read the data entered by
+user and store into variable 'name' along with new line char '\n'. The method 'chomp' will remove
+the trailing new line char and store only entered data into 'name'."
+%}
 
 ```ruby
 puts "Enter your name: "

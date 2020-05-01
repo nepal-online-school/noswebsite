@@ -12,7 +12,10 @@ next_link: /toc/section-two/variables-constants/
 
 # Naming conventions in Ruby
 
-> "The only real difficulties in programming are cache invalidation and naming things." — Phil Karlton
+{% include util/quote.html
+    quote="The only real difficulties in programming are cache invalidation and naming things."
+    quote_by="Phil Karlton"
+%}
 
 A naming convention is a set of rules for choosing the character sequence(or simply name) to be used for
 identifiers which denote variables, types, functions, and other entities in source code and documentation.
@@ -33,8 +36,10 @@ Following are the few naming conventions one should know and taken from
 [Ruby community style guide]([Ruby Style Guide naming convention.](https://rubystyle.guide/#naming-conventions){:target="_blank"}).
 These rules are set to make Ruby code more readable, acceptable in the community.
 
-__NOTE:__ Although these rules are not mandatory but by following these conventions you are helping others
-to understand your code quickly and in an efficient manner.
+{% include util/note.html
+    note="Although these rules are not mandatory but by following these conventions you are helping others
+to understand your code quickly and in an efficient manner."
+%}
 
 ### CamelCase for Classes
 

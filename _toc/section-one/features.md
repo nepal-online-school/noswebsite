@@ -27,10 +27,9 @@ Ruby variables are loosely typed language which means any variable can hold any 
 called on an object, Ruby only looks up at the name irrespective of the type of object. This is duck typing. It
 allows you to make classes that pretend to be other classes.
 
->> If it walks like a duck and it quacks like a duck, then it must be a duck"—to determine if an object can be used
->> for a particular purpose. With normal typing, suitability is determined by an object’s type. In duck typing, an
->> object’s suitability is determined by the presence of certain methods and properties, rather than the type of the
->> object itself.
+{% include util/quote.html
+    quote="If it walks like a duck and it quacks like a duck, then it must be a duck - to determine if an object can be used for a particular purpose. With normal typing, suitability is determined by an object’s type. In duck typing, an object’s suitability is determined by the presence of certain methods and properties, rather than the type of the object itself."
+%}
 
 ## Flexibility
 

@@ -33,7 +33,10 @@ puts "Name of the person is #{name}"
 
 You can see in above code how `name` variable is used.
 
-__NOTE:__ The value stored in the variable can be changed anywhere in the program.
+{% include util/note.html
+    note="The value stored in the variable can be changed anywhere in the program."
+    type="important"
+%}
 
 ##### We have following categories of variable depending on their use.
 
@@ -136,7 +139,10 @@ Total number of students: 3
 A global variable name starts with a `$` sign. Its scope is globally, means it can be accessed from any where
 in a program. An uninitialized global variable will have a `nil` value.
 
-__NOTE:__ It is advised not to use global variable as they make programs complex.
+{% include util/note.html
+    note="It is advised not to use global variable as they make programs complex."
+    type="important"
+%}
 
 ```ruby
 $global_guru = "GyanGuru"
@@ -167,7 +173,10 @@ Global guru in RubyGuruStudent class is GyanGuru
 
 A constant has a name starting with an uppercase character. It should be assigned a value at most once.
 
-__NOTE:__ In Ruby, reassignment of a constant generates a warning but not an error.
+{% include util/note.html
+    note="In Ruby, reassignment of a constant generates a warning but not an error."
+    type="caution"
+%}
 
 Constants may be defined within classes, but unlike instance variables, they are accessible outside the class.
 

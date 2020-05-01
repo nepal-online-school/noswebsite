@@ -12,6 +12,12 @@ next_link: /toc/section-one/history
 
 # Introduction
 
+{% include util/quote-with-pic.html
+    quote="Ruby is simple in appearance, but is very complex inside, just like our human body."
+    quote_by="Matz"
+    pic="matz.png"
+%}
+
 Ruby is an `interpreted`, `high-level`, and `general-purpose programming` language.
 It was designed and developed in the mid-1990s by `Yukihiro "Matz" Matsumoto` in Japan.
 

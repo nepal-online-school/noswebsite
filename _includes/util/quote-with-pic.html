@@ -1,0 +1,15 @@
+<div class="row util-quote-with-pic mb-3">
+  <div class="col-md-3 pic-block mb-3">
+    <img src="{{ site.image_base_url }}img/{{ include.pic }}" class="img-fluid" alt="Profile pic" />
+  </div>
+  <div class="col-md-8 util-quote">
+    <blockquote>
+      <div class="paragraph">
+        {{ include.quote }}
+      </div>
+    </blockquote>
+    {% if include.quote_by %}
+      <div class="attribution">— {{ include.quote_by }}</div>
+    {% endif %}
+  </div>
+</div>

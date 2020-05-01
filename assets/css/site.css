@@ -18387,7 +18387,6 @@ html body .md-typeset .headerlink {
     padding: 0 0 0 1rem;
     margin-bottom: 1rem;
     color: #888;
-    border-left: 6px solid {{ site.color }}
 }
 
 .td-content>ul li,

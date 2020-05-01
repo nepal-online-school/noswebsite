@@ -55,8 +55,11 @@ A number is defined as a sequence of digits, and may contain dot(`.`) as a decim
 Optionally the user can use the underscore(`_`) as a separator to _make number more readable_.
 There are two different kinds of numbers i.e integer and float.
 
-__NOTE:__ Before Ruby v2.4.0, integer numbers had two categories, Fixnum and Bignum. From v2.4.0, both are
-now classified under one class i.e Integer. [Check in detail.](https://bugs.ruby-lang.org/issues/12005){:target="_blank"}
+{% include util/note.html
+    note="Before Ruby v2.4.0, integer numbers had two categories, Fixnum and Bignum. From v2.4.0, both are
+now classified under one class i.e Integer."
+    source="https://bugs.ruby-lang.org/issues/12005"
+%}
 
 #### Basic Operations
 
@@ -174,7 +177,7 @@ In Ruby there are three main boolean operators:
 
 ### Best Practice
 
-Use `&&/||` for boolean expressions, `and/or` for control flow.
+Use `&&/||` for boolean expressions, `and/or` for control flow. [(source)](https://github.com/rubocop-hq/ruby-style-guide#andor)
 
 ```ruby
 # boolean expression
@@ -185,7 +188,6 @@ end
 # control flow
 document.saved? or document.save!
 ```
-[Source](https://github.com/rubocop-hq/ruby-style-guide#andor)
 
 ## Array
 

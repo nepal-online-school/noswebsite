@@ -14,11 +14,11 @@ next_link: /toc/section-one/features
 
 In the own words of Ruby creator, `Matz`, while sending an email message to `ruby-talk` email group,
 
->> Well, Ruby was born in Feb. 23 1993. At that day, I was talking with my colleague about the possibility of
->> object-oriented scripting language. I knew Perl (Perl4, not Perl5), but I didn’t like it really, because it had
->> smell of toy language (it still has). The object-oriented scripting language seemed very promising. I knew Python
->> then. But I didn’t like it, because I didn’t think it was a true object-oriented language. OO features are
->> appeared to be add-on to the language. ... [(Source)](http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/382){:target="_blank"}
+{% include util/quote.html
+    quote="Well, Ruby was born in Feb. 23 1993. At that day, I was talking with my colleague about the possibility of object-oriented scripting language. I knew Perl (Perl4, not Perl5), but I didn’t like it really, because it had smell of toy language (it still has). The object-oriented scripting language seemed very promising. I knew Python then. But I didn’t like it, because I didn’t think it was a true object-oriented language. OO features are appeared to be add-on to the language"
+    quote_by="Matz"
+    source="http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/"
+%}
 
 He looked around and not found a language suited for him and decided to create his own. After spending several
 months writing an interpreter, he finally published the first public version of Ruby (0.95) to various Japanese
