@@ -20,9 +20,15 @@ next_link: /toc/section-two/naming-conventions
 
 # Data Types in Ruby
 
-Data types represents different types of data like text, string, numbers etc. Ruby has several data types and all
-data types are based on classes as it is a pure Object-Oriented language.
+{% include util/highlight.html
+    text="Data types represents different types of data like text, string, numbers etc.
+          It also represents a kind of value which determines what operations can be performed on that data."
+%}
+
+Ruby has several data types and all data types are based on classes as it is a pure Object-Oriented language.
+
 The following are the basic data types recognized in Ruby:
+
 - Number (Class: `Numeric`)
   - Integer (Class: `Integer`)
   - Float (Class: `Float`)
