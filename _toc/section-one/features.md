@@ -8,6 +8,7 @@ description: Features of Ruby Language
 permalink: /toc/section-one/features/
 prev_link: /toc/section-one/history/
 next_link: /toc/section-one/hello-world/
+comments: true
 ---
 
 # Features of Ruby

@@ -8,6 +8,7 @@ description: Hello World program in Ruby
 permalink: /toc/section-one/hello-world/
 prev_link: /toc/section-one/features/
 next_link: /toc/section-one/irb/
+comments: true
 ---
 
 # Hello World Program

@@ -21,9 +21,10 @@ github_repo: "rubyguru"
 # feedback: true
 
 google_analytics: UA-164576022-2
-# Image and (square) dimension for logo (don't start with /)
-# If commented, will use material hat theme
-# logo: "assets/img/ruby-logo.png"
+# Disqus Comments
+disqus:
+  shortname: brgtrainings
+
 logo_pixels: 34
 color: "#6d161e"
 # color: "#8c1515" # primary color for header, buttons

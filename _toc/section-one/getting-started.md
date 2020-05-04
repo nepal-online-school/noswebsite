@@ -9,6 +9,7 @@ tags:
 description: Getting started with Ruby
 permalink: /toc/section-one/getting-started/
 next_link: /toc/section-one/intro
+comments: true
 ---
 
 # Getting Started

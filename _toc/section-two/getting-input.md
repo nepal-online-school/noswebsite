@@ -7,6 +7,7 @@ tags:
 description: Getting input from user
 permalink: /toc/section-two/getting-input/
 prev_link: /toc/section-two/variables-constants/
+comments: true
 ---
 
 # Getting input from User in Ruby

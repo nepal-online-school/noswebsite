@@ -8,6 +8,7 @@ description: Naming conventions in Ruby
 permalink: /toc/section-two/naming-conventions/
 prev_link: /toc/section-two/datatypes/
 next_link: /toc/section-two/variables-constants/
+comments: true
 ---
 
 # Naming conventions in Ruby

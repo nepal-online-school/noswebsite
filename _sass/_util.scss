@@ -98,4 +98,11 @@
   border: 1px solid transparent;
   border-radius: .25rem;
   font-size: 18px;
+
+  a {
+    font-size: 13px;
+    color: #ddd;
+    text-decoration: none;
+    font-style: italic;
+  }
 }
