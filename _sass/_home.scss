@@ -153,3 +153,68 @@
     }
   }
 }
+
+
+// Contact
+.contact-section {
+  margin-top: 65px;
+}
+.contact-section, .subscribe-section {
+  .container {
+    width: 60%;
+  }
+
+  .contact-info {
+    color: #666;
+    // border-radius: 0.5rem;
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    .fas, .fab {
+      font-size: 2em;
+    }
+  }
+  .form-control {
+    font-size: 13px;
+    border-radius: 0;
+  }
+}
+// Subscribe
+.subscribe-section {
+  background: #888;
+
+  .contact-info {
+    h2 {
+      margin-top: 2em;
+      color: #fff;
+    }
+  }
+
+  #mc_embed_signup {
+    background: #888;
+
+    .mc-field-group {
+      width: 100%;
+    }
+
+    input {
+      border-radius: 0;
+    }
+
+    form {
+      padding: 0;
+    }
+
+    .button {
+      margin-bottom: 0;
+    }
+
+    .indicates-required, label {
+      color: #fff;
+      font-size: 13px;
+      font-weight: 300;
+    }
+  }
+}

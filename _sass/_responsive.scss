@@ -101,6 +101,11 @@
       }
     }
   }
+  .contact-section, .subscribe-section {
+    .container {
+      width: 70%;
+    }
+  }
 }
 
 @media (max-width: 550px) {
@@ -169,6 +174,17 @@
         font-size: 12px;
       }
     }
+  }
+  .contact-section {
+    margin-top: 0;
+  }
+  .contact-section, .subscribe-section {
+    .container {
+      width: 95%;
+    }
+  }
+  .subscribe-section .contact-info h2 {
+    margin-top: 0;
   }
 }
 
