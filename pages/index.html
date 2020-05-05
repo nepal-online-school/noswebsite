@@ -1,9 +1,19 @@
 ---
-layout: non-course
-show_notice: true
+layout: default
+title: PythonGuru
 permalink: /
+page_name: home
 ---
 
 <section class="home-section">
   {% include staticbanner.html %}
 </section>
+
+{% include notice.html
+    primary="The content of the syllabus is still in building stage."
+    secondary="However, you can still begin your learning."
+%}
+
+{% include block-to-contact.html %}
+
+{% include footer.html %}

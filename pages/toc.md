@@ -2,6 +2,7 @@
 layout: page
 title: Table Of Contents
 permalink: /toc/
+page_name: toc
 ---
 
 # Table Of Contents
