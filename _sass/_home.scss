@@ -207,6 +207,26 @@
       padding: 0;
     }
 
+    #mce-success-response {
+      color: #fff;
+    }
+    #mce-error-response {
+      color: darkred;
+
+      a {
+        color: #fff;
+      }
+    }
+
+    div#mce-responses {
+      padding: 0;
+      margin: 0;
+    }
+
+    div.response {
+      margin: 0 0 1em 0;
+    }
+
     .button {
       margin-bottom: 0;
     }
