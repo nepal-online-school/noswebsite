@@ -20,7 +20,7 @@ In the own words of Ruby creator, `Matz`, while sending an email message to `rub
     source="http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/"
 %}
 
-He looked around and not found a language suited for him and decided to create his own. After spending several
+He looked around and having not found a language suited for him, decided to create his own. After spending several
 months writing an interpreter, he finally published the first public version of Ruby (0.95) to various Japanese
 domestic newsgroups in December, 1995.
 
@@ -65,4 +65,4 @@ Ruby was influenced by languages like Perl, Smalltalk, Eiffel, Ada, and Lisp.
 - TruffleRuby, a Java implementation using the Truffle language implementation framework with GraalVM
 - Rubinius, a C++ bytecode virtual machine that uses LLVM to compile to machine code at runtime.
 
-If interested you can read more implementation in the [here](https://en.wikipedia.org/wiki/Ruby_(programming_language)#Implementations){:target="_blank"}.
+If interested you can read about other implementations in the [here](https://en.wikipedia.org/wiki/Ruby_(programming_language)#Implementations){:target="_blank"}.
