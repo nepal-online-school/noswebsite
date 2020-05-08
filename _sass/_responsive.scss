@@ -16,6 +16,24 @@
     background: url($image_base_url + "/img/bg-md.jpg") no-repeat;
     height: 400px;
   }
+  .navbar-toggler {
+    border-color: #fff;
+
+    .fa-bars {
+      color: #fff;
+    }
+  }
+  .navbar-nav {
+    margin-left: 0;
+
+    .nav-item .nav-link {
+      text-align: center;
+    }
+  }
+  .navbar-brand {
+    font-size: 35px;
+    margin-left: 0.7em !important;
+  }
   .staticbanner {
     padding-top: 80px;
 
@@ -49,39 +67,7 @@
       }
     }
   }
-  // .navbar-collapse {
-  //   background: #ddd;
-  //   z-index: 100;
-  //   padding: 2em 0;
-  //   margin-top: -10px;
 
-  //   &:focus {
-  //     border: transparent;
-  //   }
-  // }
-  // .navbar-toggler {
-  //   margin-top: -10px;
-  // }
-  // .navbar-toggler {
-  //   border: 1px solid #fff;
-  //   .fa-bars {
-  //     color: #fff;
-  //   }
-  //   .menu-caption {
-  //     color: #ffff;
-  //     font-size: 13px;
-  //     font-weight: 600;
-  //   }
-  // }
-  // .navbar-collapse {
-  //   .navbar-nav {
-  //     margin-left: 0;
-  //     .nav-item .nav-link {
-  //       color: #333;
-  //       text-align: center;
-  //     }
-  //   }
-  // }
   .contact-section {
     .contact-info {
       h2 {
@@ -120,8 +106,9 @@
 }
 
 @media (max-width: 550px) {
-  .home-section {
-    margin-top: 0;
+  .navbar-brand {
+    font-size: 35px;
+    margin-left: 0.7em !important;
   }
   .sm-block {
     display: block;
@@ -129,10 +116,6 @@
   .banner-section {
     background: url($image_base_url + "/img/bg-sm.jpg") no-repeat;
     height: 350px;
-  }
-  .navbar-brand {
-    font-size: 35px;
-    margin-left: 0.7em !important;
   }
 
   .staticbanner {
