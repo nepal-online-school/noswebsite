@@ -9,6 +9,11 @@ page_name: toc
 
 Welcome to the {{ site.title }} learning platform! Here you can quickly jump to a particular section.
 
+{% include util/note.html
+    note="This syllabus is aimed at people with little programming experience and who want to start
+    learning Ruby."
+%}
+
 {% include notice.html
     primary="The content of the syllabus is still in building stage."
     secondary="However, you can still begin your learning."
