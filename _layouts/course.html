@@ -9,23 +9,26 @@ layout: default
         {% include sidebar.html %}
       </div>
 
-      <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
-        <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
-            {% include editable.html %}
-        </div>
+      {% if page.content_type != "class_syllabus" %}
+        <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
+          <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
+              {% include editable.html %}
+          </div>
 
-        <!-- Video playlist -->
-        <nav id="TableOfContents">
-          <h4 class="ml-2">Playlist</h4>
-          <ul class="playlist-videos">
-            {% for video in page.videos %}
-              <li id="playlist-{{ video.id }}" class="{% if forloop.index0 == 0 %}active {% endif %}pl-2">
-                {{ video.title }}  
-              </li>
-            {% endfor %}
-          </ul>
-        </nav>
-      </div>
+          <!-- Video playlist -->
+          <nav id="TableOfContents">
+            <h4 class="ml-2">Playlist</h4>
+            <ul class="playlist-videos">
+              {% for video in page.videos %}
+                <li id="playlist-{{ video.id }}" class="{% if forloop.index0 == 0 %}active {% endif %}pl-2">
+                  {{ video.title }}  
+                </li>
+              {% endfor %}
+            </ul>
+          </nav>
+        </div>
+      {% endif %}
+
       <main class="col-12 col-md-9 col-xl-8 px-md-5" role="main">
         <!-- <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
           <ol class="breadcrumb spb-1">
@@ -43,41 +46,44 @@ layout: default
           </ol>
         </nav> -->
         <div class="td-content">
-          <h1 class="header-title">{{ page.title }}</h1>
-          <h3 class="header-description">{{ page.description }}</h3>
+          {% if page.content_type != "class_syllabus" %}
+            <h1 class="header-title">{{ page.title }}</h1>
+            <h3 class="header-description">{{ page.description }}</h3>
+            
+            <hr>
+
+            <div class="video-nav-actions my-4">
+              {% for video in page.videos %}
+                <div id="video-{{ video.id }}" class="{% if forloop.index0 != 0 %}d-none{% endif %}">
+                  {% if forloop.index0 != 0 %}
+                    {% assign prev_index = forloop.index0 | minus: 1 %}
+                    {% assign prev_video = page.videos[prev_index] %}
+                    <a href="#" class="btn btn-sm btn-primary rounded-0 px-3 mr-5 prev-btn" data-videoid="{{ prev_video.id  }}" 
+                      role="button">Previous</a>
+                  
+                  {% endif %}
+                  {% assign list_length = forloop.length | minus: 1 %}
+                  {% if forloop.index0 != list_length %}
+                    {% assign next_index = forloop.index0 | plus: 1 %} 
+                    {% assign next_video = page.videos[next_index] %}  
+                    <a href="#" class="btn btn-sm btn-primary rounded-0 px-3 next-btn" data-videoid="{{ next_video.id }}"
+                      role="button">Next</a>
+                  {% endif %}  
+                  <span class="contributor-badge py-2 px-4 badge-light">Contributed by <span class="text-secondary">{{ video.contributor }}</span></span>
+                </div>
+              {% endfor %} 
+            </div>
+
+            <!-- video -->
+            <div id="video_wrapper" class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.videos.first.id }}?rel=0" allowfullscreen></iframe>
+            </div>
+            <!-- video end -->
+          {% endif %}
           
-          <hr>
-
-          <div class="video-nav-actions my-4">
-            {% for video in page.videos %}
-              <div id="video-{{ video.id }}" class="{% if forloop.index0 != 0 %}d-none{% endif %}">
-                {% if forloop.index0 != 0 %}
-                  {% assign prev_index = forloop.index0 | minus: 1 %}
-                  {% assign prev_video = page.videos[prev_index] %}
-                  <a href="#" class="btn btn-sm btn-primary rounded-0 px-3 mr-5 prev-btn" data-videoid="{{ prev_video.id  }}" 
-                    role="button">Previous</a>
-                
-                {% endif %}
-                {% assign list_length = forloop.length | minus: 1 %}
-                {% if forloop.index0 != list_length %}
-                  {% assign next_index = forloop.index0 | plus: 1 %} 
-                  {% assign next_video = page.videos[next_index] %}  
-                  <a href="#" class="btn btn-sm btn-primary rounded-0 px-3 next-btn" data-videoid="{{ next_video.id }}"
-                    role="button">Next</a>
-                {% endif %}  
-                <span class="contributor-badge py-2 px-4 badge-light">Contributed by <span class="text-secondary">{{ video.contributor }}</span></span>
-              </div>
-            {% endfor %} 
+          <div class="mt-4">
+            {{ content }}
           </div>
-
-          <!-- video -->
-          <div id="video_wrapper" class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.videos.first.id }}?rel=0" allowfullscreen></iframe>
-          </div>
-          <!-- video end -->
-          
-
-          {{ content }}
 
           <div class="mt-5">
             <!-- {% if page.prev_link %} -->

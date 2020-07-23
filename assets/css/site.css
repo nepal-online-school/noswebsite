@@ -18200,8 +18200,8 @@ html body .md-typeset .headerlink {
         position: -webkit-sticky;
         position: sticky;
         top: 4rem;
-        height: -webkit-calc(100vh - 10rem);
-        height: calc(100vh - 10rem);
+        height: -webkit-calc(100vh - 5rem);
+        height: calc(100vh - 5rem);
         overflow-y: auto
     }
 }
