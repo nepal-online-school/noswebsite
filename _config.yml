@@ -1,29 +1,26 @@
-title: RubyGuru
+title: Secondary Level
 year: 2020
-email: contact@brgtrainings.com
+email: nepalonlineschool@gmail.com
 description: >-
-  A self-learning open platform to learn Ruby.
+  Nepal Online School is a non-profit digital learning platform working for free education in Nepal.
+  With dedicated and hardworking mentors, we have created quality videos from academics to yoga.
 baseurl: ""
-url: "https://ruby.brgtrainings.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://secondary.nepalonlineschool.org"
 image_base_url: /assets/
-author: BRG
-author_url: https://freelancerbrg.com
-
-baseurl: ""
 
 future: true
 
-repo: "https://github.com/gyanguru/rubyguru"
-github_user: "gyanguru"
-github_repo: "rubyguru"
+# repo: "https://github.com/gyanguru/rubyguru"
+# github_user: "gyanguru"
+# github_repo: "rubyguru"
 
 # Should there be feedback buttons at the bottom of pages?
 # feedback: true
 
-google_analytics: UA-164576022-2
+google_analytics: # your google analytics id
 # Disqus Comments
 disqus:
-  shortname: brgtrainings
+  shortname: # disqus short name
 
 logo_pixels: 34
 color: "#6d161e"
@@ -54,18 +51,16 @@ collections:
 # Defaults
 defaults:
   - scope:
-      path: "_toc"
-      type: "toc"
+      path: "_grade6"
+      type: "Grade 6"
     values:
       layout: page
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       path: "posts"
       type: "posts"
     values:

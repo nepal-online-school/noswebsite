@@ -1,22 +1,17 @@
 ---
 layout: page
-title: Table Of Contents
-permalink: /toc/
-page_name: toc
+title: Grade 6
+permalink: /grade6/
+page_name: grade6
 ---
 
-# Table Of Contents
+# Grade 6
 
 Welcome to the {{ site.title }} learning platform! Here you can quickly jump to a particular section.
 
 {% include util/note.html
     note="This syllabus is aimed at people with little programming experience and who want to start
     learning Ruby."
-%}
-
-{% include notice.html
-    primary="The content of the syllabus is still in building stage."
-    secondary="However, you can still begin your learning."
 %}
 
 <div class="section-index">

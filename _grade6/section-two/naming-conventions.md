@@ -1,14 +1,14 @@
 ---
 title: Naming Conventions
-date: 23th April, 2020 22:00:00
+date: 8th May, 2020 17:00:00
 parent: /toc/section-two/
 tags:
  - naming conventions
 description: Naming conventions in Ruby
 permalink: /toc/section-two/naming-conventions/
-prev_link: /toc/section-two/datatypes/
-next_link: /toc/section-two/variables-constants/
-comments: true
+prev_link: /toc/section-two/scope/
+next_link: /toc/section-two/cmd-args/
+# comments: true
 ---
 
 # Naming conventions in Ruby

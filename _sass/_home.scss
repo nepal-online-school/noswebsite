@@ -8,30 +8,21 @@
 
 // Header SCSS
 .navbar {
-  min-height: 70px;
-  background: $site-color;
+  background: #ccc !important;
 
-  .navbar-brand {
-    .title {
-      color: yellow;
-      line-height: 1;
-      font-size: 25px;
-      font-family: 'Jacques Francois Shadow', cursive;
+  .navbar-brand .logo {
+    height: 50px;
+
+    img {
+      height: 100%;
     }
   }
-}
-.navbar-nav .nav-item .nav-link {
-  color: #fff;
 }
 .navbar-nav .nav-item .nav-link:hover {
   font-weight: 600;
 }
 .navbar-nav .nav-item.active .nav-link {
-  color: #fff;
   font-weight: 800;
-}
-.navbar-nav {
-  margin-left: 30%;
 }
 
 .site-color {

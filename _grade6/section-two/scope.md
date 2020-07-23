@@ -1,24 +1,20 @@
 ---
-title: Getting Input
-date: 25th April, 2020 8:00:00
+title: Scope
+date: 8th May, 2020 9:00:00
 parent: /toc/section-two/
 tags:
-  - input
-description: Getting input from user
-permalink: /toc/section-two/getting-input/
-prev_link: /toc/section-two/variables-constants/
-comments: true
+  - scope
+description: Scope
+permalink: /toc/section-two/scope/
+prev_link: /toc/section-two/function-arg/
+next_link: /toc/section-two/naming-conventions/
 ---
 
-# Getting input from User in Ruby
+# Scope in Ruby
 
-Sometimes during the program you want ask user to interact with the program like
-asking his name or other details.
+In a very simple meaning, scope refers to the reach or visibility of something during the program. It
+rules. We'll be talking chiefly about two types: global and local variables.
 
-This can be easily achieved by Ruby `gets` method which is opposite of `puts` which print the output
-to standard output device i.e monitor.
-
-In Ruby, we can get user input like this:
 
 ```ruby
 puts "Enter your name: "
@@ -31,11 +27,9 @@ RubyGuru
 Hello, RubyGuru, how are you
 ```
 
-{% include util/note.html
-    note="The reason for using 'chomp' after 'gets' is that 'gets' will read the data entered by
-user and store into variable 'name' along with new line char '\n'. The method 'chomp' will remove
-the trailing new line char and store only entered data into 'name'."
-%}
+__NOTE:__ The reason for using `chomp` after `gets` is that `gets` will read the data entered by
+user and store into variable `name` along with new line char `\n`. The method `chomp` will remove
+the trailing new line char and store only entered data into `name`.
 
 ```ruby
 puts "Enter your name: "

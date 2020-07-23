@@ -1,17 +1,17 @@
 ---
-title: Variables and Constants
-date: 25th April, 2020 1:00:00
+title: Function Argument
+date: 8th May, 2020 06:00:00
 parent: /toc/section-two/
 tags:
-  - variables
-description: Variables and Constants in Ruby
-permalink: /toc/section-two/variables-constants/
-prev_link: /toc/section-two/naming-conventions/
-next_link: /toc/section-two/getting-input/
-comments: true
+  - function
+  - arguments
+description: Function Argument in Ruby
+permalink: /toc/section-two/function-arg/
+prev_link: /toc/section-two/function/
+next_link: /toc/section-two/scope/
 ---
 
-# Variable in Ruby
+# Function Argument in Ruby
 
 Variable is a label to give name to the memory location, which hold any data to be used by the program.
 The data can be of any data type including integer, boolean, string, array, hash or else.
