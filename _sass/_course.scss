@@ -2,9 +2,32 @@
   .header-title {
     font-weight: bold;
     color: #333;
+    margin-bottom: 0.5rem;
   }
   .header-description {
     color: #666;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
   }
+  .video-nav-actions .btn {
+    font-size: 16px;
+  }
+  hr {
+    margin: 0.5rem 0;
+  }
+  #TableOfContents {
+    li.active {
+      background-color: #bbb !important;
+      color: #333 !important;
+    }
+    li:hover {
+      background-color: #ddd !important;
+      color: #333 !important;
+      cursor: pointer;
+    }
+    li:nth-child(odd) { 
+      background: #FCF3CF;
+      color: #111; 
+    }
+  }
+
 }

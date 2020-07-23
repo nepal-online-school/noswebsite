@@ -40,6 +40,12 @@ layout: null
     });
 }(jQuery));
 
+function updateVideo(src) {
+  $("#video_wrapper .embed-responsive-item").replaceWith(
+    '<iframe class="embed-responsive-item" src="' + src + '" allowfullscreen></iframe>'
+  );
+}
+
 (function($) {
   'use strict';
 
@@ -53,8 +59,24 @@ layout: null
     // remove next item d-none
     $('#video-'+id).removeClass('d-none');
 
-    $("#video_wrapper .embed-responsive-item").replaceWith(
-      '<iframe class="embed-responsive-item" src="' + src + '" allowfullscreen></iframe>'
-    );
+    //  update playlist video activeness
+    $('.playlist-videos li.active').removeClass('active');
+    $('#playlist-'+id).addClass('active');
+
+    updateVideo(src);
+  });
+
+  // action on playlist video item
+  $('.playlist-videos li').click(function(){
+    $('.playlist-videos li.active').removeClass('active');
+    $(this).addClass('active');
+    var id = $(this).attr('id').replace(/playlist-/, '');
+    var src = "https://www.youtube.com/embed/" + id + "?rel=0"
+    
+    // hide all buttons
+    $('.video-nav-actions > div').addClass('d-none');
+    // remove next item d-none
+    $('#video-'+id).removeClass('d-none');
+    updateVideo(src);
   });
 }(jQuery));
