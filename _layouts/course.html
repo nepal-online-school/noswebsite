@@ -65,6 +65,7 @@ layout: default
                   <a href="#" class="btn btn-sm btn-primary rounded-0 px-3 next-btn" data-videoid="{{ next_video.id }}"
                     role="button">Next</a>
                 {% endif %}  
+                <span class="contributor-badge py-2 px-4 badge-light">Contributed by <span class="text-secondary">{{ video.contributor }}</span></span>
               </div>
             {% endfor %} 
           </div>
@@ -74,6 +75,7 @@ layout: default
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.videos.first.id }}?rel=0" allowfullscreen></iframe>
           </div>
           <!-- video end -->
+          
 
           {{ content }}
 

@@ -1,5 +1,6 @@
 ---
 title: Maths
+page_name: grade6
 layout: course
 date: 23rd July, 2020 12:00:00
 description: |
@@ -7,7 +8,7 @@ description: |
 parent: 
   title: Grade 6
   link: /grade6/
-permalink: /grade6/maths
+permalink: /grade6/maths/
 videos:
   - title: Introduction of Set 
     id: nFwYgT3zrJo
@@ -45,5 +46,4 @@ videos:
   - title: Set Exercise 4 Solution
     id: Q-9CUiY55uQ
     contributor: Anil K.C
-
 ---
