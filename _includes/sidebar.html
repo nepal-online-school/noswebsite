@@ -1,14 +1,14 @@
 <div id="td-sidebar-menu" class="td-sidebar__inner">
   <form class="td-sidebar__search d-flex align-items-center">
-    <input type="search" class="form-control td-search-input" placeholder="&#xf002 Search this site…" aria-label="Search this site…" autocomplete="off">
-    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type="button" data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <button class="btn btn-primary btn-block py-3 text-white td-sidebar__toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+      <i class="fas fa-bars mr-3"></i>SHOW ALL SUBJECTS
     </button>
   </form>
 
-  <nav class="collapse td-sidebar-nav pt-2 pl-4" id="td-section-nav">
-    {% for section in site.data.toc %}
+  <nav class="collapse td-sidebar-nav pt-5 mx-auto" id="td-section-nav">
+    {% for section in site.data.grade6 %}
       <ul class="td-sidebar-nav__section pr-md-3">
-        <li class="td-sidebar-nav__section-title">
+        <li class="td-sidebar-nav__section-title d-none d-sm-block">
           <a  href="{% if section.url %}{{ site.baseurl }}/{{ section.url }}{% else %}{{ section.external_url }}{% endif %}" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">{{ section.title }}</a>
         </li>
         {% if section.links %}

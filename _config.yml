@@ -10,9 +10,9 @@ image_base_url: /assets/
 
 future: true
 
-# repo: "https://github.com/gyanguru/rubyguru"
-# github_user: "gyanguru"
-# github_repo: "rubyguru"
+repo: "https://github.com/coolbrg/nossecondary"
+github_user: "coolbrg"
+github_repo: "nossecondary"
 
 # Should there be feedback buttons at the bottom of pages?
 # feedback: true
@@ -44,7 +44,7 @@ exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
 # Collections
 collections:
-  toc:
+  grade6:
     output: true
     permalink: /:collection/:path
 

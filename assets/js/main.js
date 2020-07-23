@@ -39,22 +39,22 @@ layout: null
         });
     });
 }(jQuery));
+
 (function($) {
-    'use strict';
-    var Search = {
-        init: function() {
-            $(document).ready(function() {
-                $(document).on('keypress', '.td-search-input', function(e) {
-                    if (e.keyCode !== 13) {
-                        return
-                    }
-                    var query = $(this).val();
-                    var searchPage = "{{ site.url }}{{ site.baseurl }}/search/?q=" + query;
-                    document.location = searchPage;
-                    return false;
-                });
-            });
-        },
-    };
-    Search.init();
+  'use strict';
+
+  // next and previous video buttons action handler 
+  $('.next-btn, .prev-btn').click(function(){
+    var id = $(this).data("videoid");
+    var src = "https://www.youtube.com/embed/" + id + "?rel=0"
+
+    // hide the current button parent div
+    $(this).parent().addClass('d-none');
+    // remove next item d-none
+    $('#video-'+id).removeClass('d-none');
+
+    $("#video_wrapper .embed-responsive-item").replaceWith(
+      '<iframe class="embed-responsive-item" src="' + src + '" allowfullscreen></iframe>'
+    );
+  });
 }(jQuery));
