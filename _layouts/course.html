@@ -21,7 +21,7 @@ layout: default
             <ul class="playlist-videos">
               {% for video in page.videos %}
                 <li id="playlist-{{ video.id }}" class="{% if forloop.index0 == 0 %}active {% endif %}pl-2">
-                  {{ video.title }}  
+                  {{ video.title }}
                 </li>
               {% endfor %}
             </ul>
@@ -49,38 +49,44 @@ layout: default
           {% if page.content_type != "class_syllabus" %}
             <h1 class="header-title">{{ page.title }}</h1>
             <h3 class="header-description">{{ page.description }}</h3>
-            
+
             <hr>
 
             <div class="video-nav-actions my-4">
-              {% for video in page.videos %}
-                <div id="video-{{ video.id }}" class="{% if forloop.index0 != 0 %}d-none{% endif %}">
-                  {% if forloop.index0 != 0 %}
-                    {% assign prev_index = forloop.index0 | minus: 1 %}
-                    {% assign prev_video = page.videos[prev_index] %}
-                    <a href="#" class="btn btn-sm btn-primary rounded-0 px-3 mr-5 prev-btn" data-videoid="{{ prev_video.id  }}" 
-                      role="button">Previous</a>
-                  
-                  {% endif %}
-                  {% assign list_length = forloop.length | minus: 1 %}
-                  {% if forloop.index0 != list_length %}
-                    {% assign next_index = forloop.index0 | plus: 1 %} 
-                    {% assign next_video = page.videos[next_index] %}  
-                    <a href="#" class="btn btn-sm btn-primary rounded-0 px-3 next-btn" data-videoid="{{ next_video.id }}"
-                      role="button">Next</a>
-                  {% endif %}  
-                  <span class="contributor-badge py-2 px-4 badge-light">Contributed by <span class="text-secondary">{{ video.contributor }}</span></span>
-                </div>
-              {% endfor %} 
+              {% if page.videos.size > 0 %}
+                {% for video in page.videos %}
+                  <div id="video-{{ video.id }}" class="{% if forloop.index0 != 0 %}d-none{% endif %}">
+                    {% if forloop.index0 != 0 %}
+                      {% assign prev_index = forloop.index0 | minus: 1 %}
+                      {% assign prev_video = page.videos[prev_index] %}
+                      <a href="#" class="btn btn-sm btn-primary rounded-0 px-3 mr-5 prev-btn" data-videoid="{{ prev_video.id  }}"
+                        role="button">Previous</a>
+
+                    {% endif %}
+                    {% assign list_length = forloop.length | minus: 1 %}
+                    {% if forloop.index0 != list_length %}
+                      {% assign next_index = forloop.index0 | plus: 1 %}
+                      {% assign next_video = page.videos[next_index] %}
+                      <a href="#" class="btn btn-sm btn-primary rounded-0 px-3 next-btn" data-videoid="{{ next_video.id }}"
+                        role="button">Next</a>
+                    {% endif %}
+                    <span class="contributor-badge py-2 px-4 badge-light">Contributed by <span class="text-secondary">{{ video.contributor }}</span></span>
+                  </div>
+                {% endfor %}
+              {% else %}
+                <h1>Coming Soon ...</h1>
+              {% endif %}
             </div>
 
-            <!-- video -->
-            <div id="video_wrapper" class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.videos.first.id }}?rel=0" allowfullscreen></iframe>
-            </div>
-            <!-- video end -->
+            {% if page.videos.size > 0 %}
+              <!-- video -->
+              <div id="video_wrapper" class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.videos.first.id }}?rel=0" allowfullscreen></iframe>
+              </div>
+              <!-- video end -->
+            {% endif %}
           {% endif %}
-          
+
           <div class="mt-4">
             {{ content }}
           </div>
