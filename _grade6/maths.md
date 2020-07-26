@@ -5,12 +5,12 @@ layout: course
 date: 23rd July, 2020 12:00:00
 description: |
   Class 6 Maths notes, homework, video classes in Nepali language.
-parent: 
+parent:
   title: Grade 6
   link: /grade6/
 permalink: /grade6/maths/
 videos:
-  - title: Introduction of Set 
+  - title: Introduction of Set
     id: nFwYgT3zrJo
     contributor: Anil K.C
   - title: Set Section A Exercise
@@ -34,10 +34,10 @@ videos:
   - title: Set Relation Section A Exercise
     id: XQwflOhGVG4
     contributor: Anil K.C
-  - title: Types of set and cardinal numbers Section B Part 1 
+  - title: Types of set and cardinal numbers Section B Part 1
     id: U-dhcQBT2w4
     contributor: Anil K.C
-  - title: Types of set and cardinal numbers Section B Part 2 
+  - title: Types of set and cardinal numbers Section B Part 2
     id: BQ0L1u8liG8
     contributor: Anil K.C
   - title: Set Exercise 4 Theory
@@ -47,5 +47,3 @@ videos:
     id: Q-9CUiY55uQ
     contributor: Anil K.C
 ---
-
-This is 
