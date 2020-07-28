@@ -9,6 +9,16 @@ page_name: home
 
 <div class="home-page page-margin">
   <div class="container">
-    <h1 class="text-center">Under Construction ...</h1>
+    <h1 class="text-center mb-4">Grades</h1>
+
+    <div class="row">
+      {% assign grades = site.data.primary %}
+      {% assign grades = grades | concat: site.data.secondary %}
+      {% for grade in grades %}
+        <div class="col-md-3 mb-4">
+          {% include grade-card.html grade=grade %}
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
