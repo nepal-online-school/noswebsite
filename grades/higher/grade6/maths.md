@@ -2,6 +2,7 @@
 title: Maths
 page_name: grade6
 layout: course
+tags: higher
 date: 23rd July, 2020 12:00:00
 description: |
   Class 6 Maths notes, homework, video classes in Nepali language.
@@ -46,4 +47,7 @@ videos:
   - title: Set Exercise 4 Solution
     id: Q-9CUiY55uQ
     contributor: Anil K.C
+  - title:
 ---
+
+

@@ -1,8 +1,8 @@
-title: Secondary Level
+title: Nepal Online School
 year: 2020
 email: nepalonlineschool@gmail.com
 description: >-
-  Nepal Online School is a non-profit digital learning platform working for free education in Nepal.
+  Nepal Online School(NOS) is a non-profit digital learning platform working for free education in Nepal.
   With dedicated and hardworking mentors, we have created quality videos from academics to yoga.
 baseurl: ""
 url: "https://secondary.nepalonlineschool.org"
@@ -10,9 +10,9 @@ image_base_url: /assets/
 
 future: true
 
-repo: "https://github.com/coolbrg/nossecondary"
-github_user: "coolbrg"
-github_repo: "nossecondary"
+repo: "https://github.com/nepal-online-school/secondary"
+github_user: "nepal-online-school"
+github_repo: "secondary"
 
 # Should there be feedback buttons at the bottom of pages?
 # feedback: true
@@ -42,19 +42,8 @@ permalink: /:year/:title/
 markdown: kramdown
 exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
-# Collections
-collections:
-  grade6:
-    output: true
-    permalink: /:collection/:path
-
 # Defaults
 defaults:
-  - scope:
-      path: "_grade6"
-      type: "Grade 6"
-    values:
-      layout: page
   - scope:
       path: ""
       type: "pages"
