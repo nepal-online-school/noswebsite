@@ -6,7 +6,28 @@ page_name: home
 ---
 
 <section class="home-page page-margin">
-  {% include staticbanner.html %}
+
+  <div class="container">
+    <!-- Primary -->
+    <h1 class="text-center mb-4">Grades</h1>
+
+    <div class="row">
+      {% assign grades = site.data.primary %}
+      {% for grade_hash in grades %}
+        {% assign grade = grade_hash[1] %}
+        <div class="col-md-3 mb-4">
+          {% include grade-card.html grade=grade %}
+        </div>
+      {% endfor %}
+      {% assign grades = site.data.secondary %}
+      {% for grade_hash in grades %}
+        {% assign grade = grade_hash[1] %}
+        <div class="col-md-3 mb-4">
+          {% include grade-card.html grade=grade %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
 </section>
 
 {% include footer.html %}
