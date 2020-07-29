@@ -5,7 +5,7 @@ description: >-
   Nepal Online School(NOS) is a non-profit digital learning platform working for free education in Nepal.
   With dedicated and hardworking mentors, we have created quality videos from academics to yoga.
 baseurl: ""
-url: "https://secondary.nepalonlineschool.org"
+url: "https://nepalonlineschool.org"
 image_base_url: /assets/
 
 future: true
