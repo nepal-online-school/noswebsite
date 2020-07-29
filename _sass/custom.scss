@@ -7,6 +7,15 @@ $color3: #0f2dff;
 $color4: red;
 $site-color: #6d161e;
 
+// reset bootstrap defaults
+.btn {
+  border-radius: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -35,67 +44,153 @@ body {
   color: #0077B5;
 }
 
-.p-6 {
-  padding: 4em;
+.hide {
+  display: none;
 }
+.show {
+  display: show;
+}
+
+// Custom Paddings
 .px-6 {
   padding: 0 4em;
 }
 .py-6 {
   padding: 4em 0;
 }
-.pt-6 {
-  padding-top: 4em;
-}
 .pb-6 {
   padding-bottom: 4em;
 }
-.p-7 {
-  padding: 5em;
+.pt-6 {
+  padding-top: 4em;
+}
+.p-6 {
+  padding: 4em;
 }
 .px-7 {
   padding: 0 5em;
 }
-.px-8 {
-  padding: 0 6em;
-}
-.px-9 {
-  padding: 0 7em;
-}
 .py-7 {
   padding: 5em 0;
-}
-.pt-7 {
-  padding-top: 5em;
 }
 .pb-7 {
   padding-bottom: 5em;
 }
+.pt-7 {
+  padding-top: 5em;
+}
+.p-7 {
+  padding: 5em;
+}
+.px-8 {
+  padding: 0 6em;
+}
+.py-8 {
+  padding: 6em 0;
+}
+.pb-8 {
+  padding-bottom: 6em;
+}
+.pt-8 {
+  padding-top: 6em;
+}
+.p-8 {
+  padding: 6em;
+}
+.px-9 {
+  padding: 0 7em;
+}
+.py-9 {
+  padding: 7em 0;
+}
+.pb-9 {
+  padding-bottom: 7em;
+}
+.pt-9 {
+  padding-top: 7em;
+}
+.p-9 {
+  padding: 7em;
+}
+.px-10 {
+  padding: 0 8em;
+}
+.py-10 {
+  padding: 8em 0;
+}
+.pb-10 {
+  padding-bottom: 8em;
+}
+.pt-10 {
+  padding-top: 8em;
+}
+.p-10 {
+  padding: 8em;
+}
+
+// Custom Margin
+.mx-6 {
+  margin: 0 4em;
+}
+.my-6 {
+  margin: 4em 0;
+}
+.mb-6 {
+  margin-bottom: 4em;
+}
 .mt-6 {
+  margin-top: 4em;
+}
+.m-6 {
+  margin: 4em;
+}
+.mx-7 {
+  margin: 0 5em;
+}
+.my-7 {
+  margin: 5em 0;
+}
+.mb-7 {
+  margin-bottom: 5em;
+}
+.mt-7 {
   margin-top: 5em;
 }
-.text-xs-center {
-  text-align: center;
+.m-7 {
+  margin: 5em;
 }
-
-#youtubeVideoModal, #facebookVideoModal {
-  top: 5%;
-
-  .modal-content {
-    background-color: transparent;
-    border: none;
-
-    .modal-header {
-      border-bottom: none;
-      padding: 0 1em;
-
-      .close {
-        color: #fff;
-        padding: 0 0.5em;
-        font-size: 40px;
-      }
-    }
-  }
+.mx-8 {
+  margin: 0 6em;
+}
+.my-8 {
+  margin: 6em 0;
+}
+.mb-8 {
+  margin-bottom: 6em;
+}
+.mt-8 {
+  margin-top: 6em;
+}
+.m-8 {
+  margin: 6em;
+}
+.mx-9 {
+  margin: 0 7em;
+}
+.my-9 {
+  margin: 7em 0;
+}
+.mb-9 {
+  margin-bottom: 7em;
+}
+.mt-9 {
+  margin-top: 7em;
+}
+.m-9 {
+  margin: 7em;
+}
+.w-80 {
+  width: 80% !important;
 }
 
 @import "site";
