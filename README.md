@@ -1,3 +1,6 @@
-# Nepal Online School : Secondary Level
+# Nepal Online School
 
-Website repository for the `Secondary Level` subjects for Nepal Online School(NOS).
+This repository powers the website of the Nepal Online School(NOS).
+
+Nepal Online School(NOS) is a **non-profit** digital learning platform working for free education in Nepal.
+With dedicated and hardworking mentors, we have created quality videos from academics to yoga.
