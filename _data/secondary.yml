@@ -22,7 +22,7 @@ grade7:
       url: grade6/computer
     - title: Science
       url: grade6/science
-grade7:
+grade8:
   name: Grade 8
   url: grade8/
   subjects:

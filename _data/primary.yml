@@ -1,10 +1,60 @@
-- name: Grade 1
-  url: grade1/
-- name: Grade 2
-  url: grade2/
-- name: Grade 3
-  url: grade3/
-- name: Grade 4
-  url: grade4/
-- name: Grade 5
-  url: grade5/
+grade1:
+  name: Grade 1
+  url: grade6/
+  subjects:
+    - title: Maths
+      url: grade6/maths
+    - title: Occupation
+      url: grade6/occupation
+    - title: Computer
+      url: grade6/computer
+    - title: Science
+      url: grade6/science
+grade2:
+  name: Grade 2
+  url: grade7/
+  subjects:
+    - title: Maths
+      url: grade6/maths
+    - title: Occupation
+      url: grade6/occupation
+    - title: Computer
+      url: grade6/computer
+    - title: Science
+      url: grade6/science
+grade3:
+  name: Grade 3
+  url: grade8/
+  subjects:
+    - title: Maths
+      url: grade6/maths
+    - title: Occupation
+      url: grade6/occupation
+    - title: Computer
+      url: grade6/computer
+    - title: Science
+      url: grade6/science
+grade4:
+  name: Grade 4
+  url: grade9/
+  subjects:
+    - title: Maths
+      url: grade6/maths
+    - title: Occupation
+      url: grade6/occupation
+    - title: Computer
+      url: grade6/computer
+    - title: Science
+      url: grade6/science
+grade5:
+  name: Grade 5
+  url: grade10/
+  subjects:
+    - title: Maths
+      url: grade6/maths
+    - title: Occupation
+      url: grade6/occupation
+    - title: Computer
+      url: grade6/computer
+    - title: Science
+      url: grade6/science
