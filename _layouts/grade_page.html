@@ -1,0 +1,31 @@
+---
+layout: course
+---
+
+<h2>
+  Welcome to Grade 6 learning content
+</h2>
+
+{% include util/note.html
+    note="All the videos are in Nepali."
+%}
+
+<!-- Setting Grade name-->
+{% assign grade = page.page_name %}
+
+{% if site.data.grades[grade].subjects.size > 0 %}
+  <div class="section-index">
+    <div class="mt-5">
+      <h2>Subjects</h2>
+    </div>
+    <hr class="panel-line">
+    {% for subject in site.data.grades[grade].subjects %}
+      <div class="entry">
+        <h5>
+          <a href="{{ site.url }}{{ site.baseurl }}/{{ subject.url }}">{{ subject.title }}</a>
+        </h5>
+        <p class="mb-0">{{ page.description }}</p>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

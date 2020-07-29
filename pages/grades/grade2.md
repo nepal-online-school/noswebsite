@@ -1,7 +1,7 @@
 ---
 layout: grade_page
-title: Grade 6
-permalink: /grade6/
-page_name: grade6
+title: Grade 2
+permalink: /grade2/
+page_name: grade2
 content_type: class_syllabus
 ---

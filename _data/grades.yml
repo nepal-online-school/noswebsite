@@ -10,16 +10,16 @@ grade1:
       url: grade1/computer
 grade2:
   name: Grade 2
-  url: grade7/
+  url: grade2/
   subjects:
     - title: Maths
-      url: grade6/maths
+      url: grade2/maths
     - title: Occupation
-      url: grade6/occupation
+      url: grade2/occupation
     - title: Computer
-      url: grade6/computer
+      url: grade2/computer
     - title: Science
-      url: grade6/science
+      url: grade2/science
 grade3:
   name: Grade 3
   url: grade3/
@@ -47,7 +47,7 @@ grade5:
     - title: Computer
       url: grade5/computer
 grade6:
-  name: Grade6
+  name: Grade 6
   url: grade6/
   subjects:
     - title: Maths
