@@ -6,7 +6,7 @@ page_name: grade6
 content_type: class_syllabus
 ---
 
-## Welcome to Grade 6 learning content.
+## Welcome to Grade 6 learning content
 
 {% include util/note.html
     note="All the videos are in Nepali."

@@ -12,10 +12,6 @@
 }
 
 @media (max-width: 768px) {
-  .banner-section {
-    background: url($image_base_url + "/img/bg-md.jpg") no-repeat;
-    height: 400px;
-  }
   .navbar-nav {
     margin-left: 0;
 
@@ -26,6 +22,13 @@
   .navbar-brand {
     font-size: 35px;
     margin-left: 0.7em !important;
+  }
+  .course {
+    .contributor-badge {
+      margin-left: 0;
+      display: block;
+      margin-top: 0.5rem;
+    }
   }
 }
 
@@ -41,35 +44,6 @@
     }
   }
 
-  .elevator-pitch {
-    .container {
-      width: 100%;
-    }
-
-    .pitch-text {
-      padding: 20px;
-
-      .quote-text {
-        font-size: 18px;
-      }
-
-      .quote {
-        font-size: 12px;
-      }
-    }
-  }
-  .contact-section {
-    margin-top: 0;
-  }
-  .contact-section, .subscribe-section {
-    .container {
-      width: 95%;
-    }
-  }
-  .subscribe-section .contact-info h2 {
-    margin-top: 0;
-  }
-
   h2 {
     font-size: 1.5em;
   }
@@ -83,9 +57,13 @@
     background-color: #ddd;
 
     .td-sidebar-nav__section {
-      padding: 1rem 0;
+      padding: 0.5rem 0;
     }
   }
+  .td-sidebar {
+    padding-bottom: 0;
+  }
+
 }
 
 @media(max-width: 360px) {
