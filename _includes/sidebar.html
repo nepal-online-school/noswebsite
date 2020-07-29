@@ -1,3 +1,6 @@
+<!-- Setting Grade name-->
+{% assign grade = page.page_name %}
+
 <div id="td-sidebar-menu" class="td-sidebar__inner">
   <form class="td-sidebar__search d-flex align-items-center">
     <button class="btn btn-primary btn-block py-3 text-white td-sidebar__toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
@@ -8,11 +11,12 @@
   <nav class="collapse td-sidebar-nav pt-5 mx-auto" id="td-section-nav">
     <ul class="td-sidebar-nav__section pr-md-3">
       <li class="td-sidebar-nav__section-title d-none d-sm-block">
-        <a  href="{{ site.url }}{{ site.baseurl }}/{{ site.data.secondary.grade6.url }}"
+        <a  href="{{ site.url }}{{ site.baseurl }}/{{ site.data.grades[grade].url }}"
           class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Subjects</a>
       </li>
 
-      {% for subject in site.data.secondary.grade6.subjects %}
+      {% assign grade = page.page_name %}
+      {% for subject in site.data.grades[grade].subjects %}
       <ul>
         <li class="collapse show" id="{{ section.title | slugify }}">
           <ul class="td-sidebar-nav__section pr-md-3">
