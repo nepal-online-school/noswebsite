@@ -1,5 +1,0 @@
-{% if page.tags %}
-<script>
-  $('h1').first().append('<div>{% for tag in page.tags %}<span style="font-size:12px; padding: 5px 10px;" class="badge badge-{{ site.tag_color }}">{{ tag }}</span>{% endfor %}</div>')
-</script>
-{% endif %}
