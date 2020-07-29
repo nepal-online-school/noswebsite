@@ -1,0 +1,144 @@
+grade1:
+  name: Grade 1
+  url: grade6/
+  subjects:
+    - title: Maths
+      url: grade6/maths
+    - title: Occupation
+      url: grade6/occupation
+    - title: Computer
+      url: grade6/computer
+    - title: Science
+      url: grade6/science
+grade2:
+  name: Grade 2
+  url: grade7/
+  subjects:
+    - title: Maths
+      url: grade6/maths
+    - title: Occupation
+      url: grade6/occupation
+    - title: Computer
+      url: grade6/computer
+    - title: Science
+      url: grade6/science
+grade3:
+  name: Grade 3
+  url: grade8/
+  subjects:
+    - title: Maths
+      url: grade6/maths
+    - title: Occupation
+      url: grade6/occupation
+    - title: Computer
+      url: grade6/computer
+    - title: Science
+      url: grade6/science
+grade4:
+  name: Grade 4
+  url: grade9/
+  subjects:
+    - title: Maths
+      url: grade6/maths
+    - title: Occupation
+      url: grade6/occupation
+    - title: Computer
+      url: grade6/computer
+    - title: Science
+      url: grade6/science
+grade5:
+  name: Grade 5
+  url: grade10/
+  subjects:
+    - title: Maths
+      url: grade6/maths
+    - title: Occupation
+      url: grade6/occupation
+    - title: Computer
+      url: grade6/computer
+    - title: Science
+      url: grade6/science
+grade6:
+  name: Grade6
+  url: grade6/
+  subjects:
+    - title: Maths
+      url: grade6/maths
+    - title: Occupation
+      url: grade6/occupation
+    - title: Computer
+      url: grade6/computer
+    - title: Science
+      url: grade6/science
+grade7:
+  name: Grade 7
+  url: grade7/
+  subjects:
+    - title: Maths
+      url: grade6/maths
+    - title: Occupation
+      url: grade6/occupation
+    - title: Computer
+      url: grade6/computer
+    - title: Science
+      url: grade6/science
+grade8:
+  name: Grade 8
+  url: grade8/
+  subjects:
+    - title: Maths
+      url: grade6/maths
+    - title: Occupation
+      url: grade6/occupation
+    - title: Computer
+      url: grade6/computer
+    - title: Science
+      url: grade6/science
+grade9:
+  name: Grade 9
+  url: grade9/
+  subjects:
+    - title: Maths
+      url: grade6/maths
+    - title: Occupation
+      url: grade6/occupation
+    - title: Computer
+      url: grade6/computer
+    - title: Science
+      url: grade6/science
+grade10:
+  name: Grade 10
+  url: grade10/
+  subjects:
+    - title: Maths
+      url: grade6/maths
+    - title: Occupation
+      url: grade6/occupation
+    - title: Computer
+      url: grade6/computer
+    - title: Science
+      url: grade6/science
+grade11:
+  name: Grade 11
+  url: grade10/
+  subjects:
+    - title: Maths
+      url: grade6/maths
+    - title: Occupation
+      url: grade6/occupation
+    - title: Computer
+      url: grade6/computer
+    - title: Science
+      url: grade6/science
+grade12:
+  name: Grade 12
+  url: grade10/
+  subjects:
+    - title: Maths
+      url: grade6/maths
+    - title: Occupation
+      url: grade6/occupation
+    - title: Computer
+      url: grade6/computer
+    - title: Science
+      url: grade6/science
