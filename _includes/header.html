@@ -18,7 +18,7 @@
           <a class="nav-link" href="/about/">About</a>
         </li>
         <li class="nav-item {% if page.page_name == 'grade6' %}active{% endif %}">
-          <a class="nav-link" href="/grade6/">Grade 6</a>
+          {% include grades-dropdown.html %}
         </li>
       </ul>
     </div>
