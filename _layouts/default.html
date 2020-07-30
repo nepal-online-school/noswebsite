@@ -2,10 +2,15 @@
 <html lang="en" class="no-js">
   {% include head.html %}
   {% include google-analytics.html %}
-  <body class="td-section">
-    {% include header.html %}
+  <body class="td-section d-flex flex-column">
+    <div id="page-content">
+      {% include header.html %}
+      {{ content }}
+    </div>
 
-    {{ content }}
+    {% if page.content_type != "class_syllabus" %}
+      {% include footer.html %}
+    {% endif %}
 
     {% include javascripts.html %}
   </body>

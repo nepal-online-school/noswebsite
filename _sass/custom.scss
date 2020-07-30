@@ -7,6 +7,18 @@ $color3: #0f2dff;
 $color4: red;
 $site-color: #6d161e;
 
+html,
+body {
+  height: 100%;
+}
+#page-content {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: none;
+}
+
 // reset bootstrap defaults
 .btn {
   border-radius: 0 !important;
