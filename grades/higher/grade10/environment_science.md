@@ -1,0 +1,13 @@
+---
+title: Environment Science
+page_name: grade10
+layout: course
+tags: higher
+description: |
+  Class 10 Environment Science notes, homework, video classes in Nepali language.
+parent:
+  title: Grade 10
+  link: /grade10/
+permalink: /grade10/environment_science/
+videos:
+---

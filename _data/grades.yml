@@ -2,24 +2,18 @@ grade1:
   name: Grade 1
   url: grade1/
   subjects:
-    - title: Science
-      url: grade1/science
-    - title: Social
-      url: grade1/social
     - title: Computer
       url: grade1/computer
 grade2:
   name: Grade 2
   url: grade2/
   subjects:
-    - title: Maths
-      url: grade2/maths
-    - title: Occupation
-      url: grade2/occupation
-    - title: Computer
-      url: grade2/computer
     - title: Science
       url: grade2/science
+    - title: Social
+      url: grade2/social
+    - title: Computer
+      url: grade2/computer
 grade3:
   name: Grade 3
   url: grade3/
@@ -68,8 +62,6 @@ grade7:
       url: grade7/science
     - title: Social
       url: grade7/social
-    - title: Basic Computer
-      url: grade7/basic_computer
     - title: Computer
       url: grade7/computer
 grade8:
@@ -106,8 +98,6 @@ grade9:
       url: grade9/physics
     - title: Science Chemistry
       url: grade9/chemistry
-    - title: Basic Computer
-      url: grade9/basic_computer
     - title: Computer
       url: grade9/computer
     - title: Account
@@ -133,4 +123,4 @@ grade10:
     - title: English
       url: grade10/english
     - title: Environment Science
-      url: grade10/env_science
+      url: grade10/environment_science
