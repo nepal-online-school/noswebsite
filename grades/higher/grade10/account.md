@@ -10,4 +10,10 @@ parent:
   link: /grade10/
 permalink: /grade10/account/
 videos:
+  - id: FHIGmH3SpuA
+    title: Class 10 SEE Account chapter 2 in Nepali | Class 10 Account SEE Model question | Model question SEE
+    contributor: NOS Teacher
+  - id: VPP5Zv4iv0c
+    title: Account chapter 1 | SEE class 10 account question in nepali || SEE Grade 10 account Nepal | SEE
+    contributor: NOS Teacher
 ---

@@ -10,4 +10,10 @@ parent:
   link: /grade9/
 permalink: /grade9/account/
 videos:
+  - id: cjejJakaepE
+    title: Journal entries in Nepali | Class 9 Accounting in Nepali | Grade 9 Account in Nepali
+    contributor: NOS Teacher
+  - id: 3UJ61339GDo
+    title: Journal entries in Nepali | Class 9 Account in Nepali | Grade 9 Account in Nepali
+    contributor: NOS Teacher
 ---

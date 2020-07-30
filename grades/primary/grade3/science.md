@@ -10,4 +10,10 @@ parent:
   link: /grade3/
 permalink: /grade3/science/
 videos:
+  - id: m5fc7Y9toLc
+    title: Grade 3 Science in Nepali | Living and non living things Class 3 Science in Nepali
+    contributor: Amisha Rijal
+  - id: RCr0KN5UjM4
+    title: Class 3 Science in Nepali Language | Living and non Living part2
+    contributor: Amisha Rijal
 ---

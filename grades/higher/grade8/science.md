@@ -10,4 +10,10 @@ parent:
   link: /grade8/
 permalink: /grade8/science/
 videos:
+  - id: O2Ads0EH42A
+    title: Class 8 science chapter 1| Measurement grade 8 science
+    contributor: Anil KC
+  - id: i_70244sCFc
+    title: Class 8 science chapter 2 |Velocity and acceleration theory part
+    contributor: Anil KC
 ---

@@ -10,4 +10,7 @@ parent:
   link: /grade2/
 permalink: /grade2/science/
 videos:
+  - id: 7Ovxb1ebSck
+    title: Class 2 Science Characteristics of Living and Non Living Things in Nepali by Sina Rai
+    contributor: Sina Rai
 ---

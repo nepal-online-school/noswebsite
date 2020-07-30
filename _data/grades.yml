@@ -98,6 +98,8 @@ grade9:
       url: grade9/physics
     - title: Science Chemistry
       url: grade9/chemistry
+    - title: Basic Computer
+      url: grade9/basic_computer
     - title: Computer
       url: grade9/computer
     - title: Account

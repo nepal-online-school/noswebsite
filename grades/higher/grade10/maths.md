@@ -10,4 +10,10 @@ parent:
   link: /grade10/
 permalink: /grade10/maths/
 videos:
+  - id: B4-c14__88k
+    title: Quadrilateral Questions and Answers | SEE | SEE Model question solve in Nepali | Grade 10 Math nepal
+    contributor: NOS Teacher
+  - id: AoPinOVVh4s
+    title: Math indices | class 10 math in nepali | Grade 10 Math in Nepali | SEE Question Answer Nepal | SEE
+    contributor: NOS Teacher
 ---

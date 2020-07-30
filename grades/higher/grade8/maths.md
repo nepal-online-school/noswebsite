@@ -10,4 +10,10 @@ parent:
   link: /grade8/
 permalink: /grade8/maths/
 videos:
+  - id: 0p9i-JyLPEc
+    title: Simple Interest in NEPALI(Example)| BLE Class 8 | Simple Interest in NEPALI | C Math in NEPALI
+    contributor: NOS Teacher
+  - id: vgWH6A2TWEU
+    title: Simple Interest in NEPALI(Exercise 1)| BLE Class 8 | Simple Interest in NEPALI | C Math in NEPALI
+    contributor: NOS Teacher
 ---

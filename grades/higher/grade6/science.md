@@ -10,4 +10,10 @@ parent:
   link: /grade6/
 permalink: /grade6/science/
 videos:
+  - id: YfQ_o_0zZ_Q
+    title: Class 6 science in nepali | Measurement grade 6
+    contributor: NOS Teacher
+  - id: vDQfawRy4P4
+    title: Class 6 science | measurement chapter 1 grade 6
+    contributor: Binita Paudel
 ---

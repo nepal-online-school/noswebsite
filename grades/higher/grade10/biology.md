@@ -10,4 +10,10 @@ parent:
   link: /grade10/
 permalink: /grade10/biology/
 videos:
+  - id: wPoHMIa4DxM
+    title: Invertebrates || SEE class 10 || Science-Biology in NEPALI || Science For SEE/SLC
+    contributor: NOS Teacher
+  - id: yp1mV6qlaW8
+    title: Human and Glandular System || SEE class 10 || Science-Biology in NEPALI || Science for SEE
+    contributor: NOS Teacher
 ---
