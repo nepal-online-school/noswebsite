@@ -8,18 +8,16 @@
           </p>
         </div>
       </div>
-      <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
-        {% for contacts_hash in site.data.siteinfo.contacts %}
-          {% assign contact = contacts_hash[1] %}
-          <a href="{{ contact.url }}" class="mr-2" target="_blank" alt="{{ contact.label }}">
-            <i class="{{ contact.class }}"></i>
+      <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3 social-links">
+        {% for link in site.links %}
+          <a href="{{ link.url }}" target="_blank" title="{{ link.title }}" class="mr-3">
+            <i class="{{ link.icon }}"></i>
           </a>
         {% endfor %}
       </div>
       <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
         <small class="text-white">
           &copy; {{ site.year }} {{ site.title }}. All rights reserved.
-          Developed by <a href="{{ site.author_url }}">{{ site.author }}.</a>
         </small>
       </div>
     </div>

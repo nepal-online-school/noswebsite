@@ -14,8 +14,22 @@ repo: "https://github.com/nepal-online-school/secondary"
 github_user: "nepal-online-school"
 github_repo: "secondary"
 
-# Should there be feedback buttons at the bottom of pages?
-# feedback: true
+links:
+  - title: Facebook
+    url: https://www.facebook.com/NepalOnlineSchool/
+    icon: fab fa-facebook-f
+  - title: YouTube Channel
+    url: https://www.youtube.com/channel/UClDw4ijXzb9YxiU5nWinEfQ
+    icon: fab fa-youtube
+  - title: Telegram
+    url: https://t.me/nepalonlineschool
+    icon: fab fa-telegram
+  - title: Instagram
+    url: https://www.instagram.com/nepalonlineschoolnonprofit/
+    icon: fab fa-instagram
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/nepalonlineschool-non-profit-project/
+    icon: fab fa-linkedin
 
 google_analytics: # your google analytics id
 # Disqus Comments
