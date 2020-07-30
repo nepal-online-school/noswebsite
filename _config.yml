@@ -10,9 +10,9 @@ image_base_url: /assets/
 
 future: true
 
-repo: "https://github.com/nepal-online-school/secondary"
+repo: "https://github.com/nepal-online-school/website"
 github_user: "nepal-online-school"
-github_repo: "secondary"
+github_repo: "website"
 
 links:
   - title: Facebook
