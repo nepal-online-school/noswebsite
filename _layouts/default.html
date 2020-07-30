@@ -8,7 +8,7 @@
       {{ content }}
     </div>
 
-    {% if page.content_type != "class_syllabus" %}
+    {% if page.include_footer %}
       {% include footer.html %}
     {% endif %}
 

@@ -42,6 +42,10 @@
     .footer-text {
       font-size: 25px;
     }
+    .social-links a {
+      font-size: 17px;
+      margin-right: 0.5rem !important;
+    }
   }
 
   h2 {
@@ -51,6 +55,13 @@
   .td-outer {
     padding-top: 5rem;
   }
+
+  .grade-card .card-header h2 {
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    text-align: center;
+  }
+
   #td-sidebar-menu .td-sidebar-nav {
     padding-top: 0!important;
     text-align: center;
@@ -63,7 +74,6 @@
   .td-sidebar {
     padding-bottom: 0;
   }
-
 }
 
 @media(max-width: 360px) {
