@@ -14,7 +14,7 @@ page_name: home
     <div class="row">
       {% for grade_hash in site.data.grades %}
         {% assign grade = grade_hash[1] %}
-        <div class="col-md-3 mb-4">
+        <div class="col-md-3 col-6 mb-4">
           {% include grade-card.html grade=grade %}
         </div>
       {% endfor %}
