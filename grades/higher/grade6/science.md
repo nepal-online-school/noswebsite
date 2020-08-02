@@ -16,4 +16,7 @@ videos:
   - id: vDQfawRy4P4
     title: Class 6 science | measurement chapter 1 grade 6
     contributor: Binita Paudel
+  - id: PtF-O1PfX3w
+    title: Class 6 science | grade 6 force and motion chapter in nepali
+    contributor: Binita Paudel
 ---
