@@ -14,18 +14,19 @@ layout: course
 {% assign grade = page.page_name %}
 
 {% if site.data.grades[grade].subjects.size > 0 %}
-  <div class="section-index">
-    <div class="mt-5">
-      <h2>Subjects</h2>
-    </div>
-    <hr class="panel-line">
+  <div class="mt-5">
+    <h2>Subjects</h2>
+  </div>
+  <hr class="panel-line mt-4 mb-5">
+  <div class="card-columns">
     {% for subject in site.data.grades[grade].subjects %}
-      <div class="entry">
-        <h5>
-          <a href="{{ site.url }}{{ site.baseurl }}/{{ subject.url }}">{{ subject.title }}</a>
-        </h5>
-        <p class="mb-0">{{ page.description }}</p>
-      </div>
+      <a href="{{ site.url }}{{ site.baseurl }}/{{ subject.url }}">
+        <div class="card subject-card rounded-0">
+          <div class="card-header">
+            <h2 class="card-title">{{ subject.title }}</h2>
+          </div>
+        </div>
+      </a>
     {% endfor %}
   </div>
 {% endif %}

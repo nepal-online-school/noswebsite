@@ -37,9 +37,26 @@
   .card-header {
     background: rgb(187,79,217);
     background: linear-gradient(18deg, rgba(187,79,217,1) 0%, rgba(79,53,141,1) 100%);
+    border-radius: 0;
+    border-bottom: 0;
 
     h2 {
       font-size: 2rem;
+      color: #fff;
+      margin-bottom: 0;
+      padding: 1rem;
+    }
+  }
+}
+.subject-card {
+  .card-header {
+    background: rgb(158,158,158);
+    background: linear-gradient(18deg, rgba(158,158,158,1) 0%, rgba(88,86,94,1) 100%);
+    border-radius: 0;
+    border-bottom: 0;
+
+    h2 {
+      font-size: 1.7rem;
       color: #fff;
       margin-bottom: 0;
       padding: 1rem;
