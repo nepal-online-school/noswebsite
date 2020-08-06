@@ -14,6 +14,9 @@ body {
 #page-content {
   flex: 1 0 auto;
 }
+textarea {
+  resize: none;
+}
 
 footer {
   flex-shrink: none;
@@ -209,6 +212,10 @@ body {
 }
 .w-80 {
   width: 80% !important;
+}
+
+.text-white-90 {
+  color: rgba(255, 255, 255, 0.9);
 }
 
 @import "site";

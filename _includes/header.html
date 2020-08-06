@@ -11,14 +11,20 @@
     </button>
     <div class="collapse navbar-collapse" data-wow-delay=".5s" id="navbarCollapse">
       <ul class="navbar-nav mx-auto">
-        <li class="nav-item {% if page.page_name == 'home' %}active{% endif %}">
+        <li class="nav-item{% if page.page_name == 'home' %} active{% endif %}">
           <a class="nav-link" href="/">Home</a>
         </li>
-        <li class="nav-item {% if page.page_name == 'about' %}active{% endif %}">
+        <li class="nav-item{% if page.page_name == 'about' %} active{% endif %}">
           <a class="nav-link" href="/about/">About</a>
         </li>
-        <li class="nav-item {% if page.page_name == 'grade6' %}active{% endif %}">
+        <li class="nav-item{% if page.page_name == 'grade6' %} active{% endif %}">
           {% include grades-dropdown.html %}
+        </li>
+        <li class="nav-item{% if page.page_name == 'contact' %} active{% endif %}">
+          <a class="nav-link" href="/contact/">Contact</a>
+        </li>
+        <li class="nav-item{% if page.page_name == 'contribute' %} active{% endif %}">
+          <a class="nav-link" href="/contribute/">Contribute</a>
         </li>
       </ul>
     </div>
