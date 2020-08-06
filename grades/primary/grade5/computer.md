@@ -16,4 +16,7 @@ videos:
   - id: muchEcho6cs
     title: Class 5 Computer Chapter 1 | Computer Network Types | LAN MAN and WAN
     contributor: Subash Chaudhary
+  - id: muchEcho6cs
+    title: Class 5 Computer Chapter 1 | Computer Network Types | LAN MAN and WAN
+    contributor: Subash Chaudhary
 ---
