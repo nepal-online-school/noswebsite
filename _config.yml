@@ -6,7 +6,8 @@ description: >-
   With dedicated and hardworking mentors, we have created quality videos from academics to yoga.
 baseurl: ""
 url: "https://projectnos.netlify.app/"
-image_base_url: /assets/
+image_base_url: /assets/img/
+thumbnail_path: thumbnail.jpg
 
 future: true
 
