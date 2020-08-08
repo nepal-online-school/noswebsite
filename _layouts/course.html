@@ -31,6 +31,8 @@ layout: default
 
       <main class="col-12 col-md-9 col-xl-7 px-md-5" role="main">
         <div class="td-content">
+          {% include notice-bar.html %}
+          <br>
           {% if page.content_type != "class_syllabus" %}
             <h1 class="header-title">{{ page.title }}</h1>
             <h3 class="header-description">{{ page.description }}</h3>

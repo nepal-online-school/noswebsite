@@ -6,168 +6,171 @@ page_name: contribute
 include_footer: true
 ---
 
-<main class="contribute-page page-margin pt-4 pb-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="text-center">Contribute</h1>
-      </div>
-    </div>
+<main class="contribute-page page-margin">
+  {% include notice-bar.html %}
 
-    <div class="row">
-      <div class="col-md-12">
-        <ul class="nav nav-tabs" id="contribute" role="tablist">
-          <li class="nav-item" role="presentation">
-            <a class="nav-link active" id="website-tab" data-toggle="tab" href="#website" role="tab" aria-controls="website" aria-selected="true">Website Development</a>
-          </li>
-          <li class="nav-item" role="presentation">
-            <a class="nav-link" id="video-tab" data-toggle="tab" href="#video-content" role="tab" aria-controls="video-content" aria-selected="false">Video Content</a>
-          </li>
-        </ul>
+  <div class="py-6">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center">Contribute</h1>
+        </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="col-md-12">
-        <div class="tab-content" id="contributeContent">
-          <div class="tab-pane fade show active bg-light p-3" id="website" role="tabpanel" aria-labelledby="website-tab">
-            <div class="bg-info p-3 text-white mb-4">
-              <h2>
-                The following instructions help you setup the Nepal Online School website project in your machine
-                from scratch.
-              </h2>
-              <p class="mb-0">
-                <strong>[ NOTE ]</strong> If you hit by any issue while setting up the project, feel free to create
-                a <a href="https://github.com/nepal-online-school/noswebsite/issues/new" class="btn btn-sm btn-light" target="_blank">GitHub issue</a>.
-                This will help us improve the setup instructions.
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-tabs" id="contribute" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="website-tab" data-toggle="tab" href="#website" role="tab" aria-controls="website" aria-selected="true">Website Development</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="video-tab" data-toggle="tab" href="#video-content" role="tab" aria-controls="video-content" aria-selected="false">Video Content</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="tab-content" id="contributeContent">
+            <div class="tab-pane fade show active bg-light p-3" id="website" role="tabpanel" aria-labelledby="website-tab">
+              <div class="bg-info p-3 text-white mb-4">
+                <h2>
+                  The following instructions help you setup the Nepal Online School website project in your machine
+                  from scratch.
+                </h2>
+                <p class="mb-0">
+                  <strong>[ NOTE ]</strong> If you hit by any issue while setting up the project, feel free to create
+                  a <a href="https://github.com/nepal-online-school/noswebsite/issues/new" class="btn btn-sm btn-light" target="_blank">GitHub issue</a>.
+                  This will help us improve the setup instructions.
+                </p>
+              </div>
+              <h4 class="">#1 Install Ruby language</h4>
+              <div class="tabs-wrapper bg-secondary mb-3">
+                <ul class="nav nav-tabs" id="rubyInstall" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link rounded-0 active" id="unix-tab" data-toggle="tab" href="#unix" role="tab"
+                      aria-controls="unix" aria-selected="true">Linux or macOS</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link rounded-0" id="windows-tab" data-toggle="tab" href="#windows" role="tab"
+                      aria-controls="windows" aria-selected="false">Windows</a>
+                  </li>
+                </ul>
+                <div class="tab-content p-2 text-white-90" id="rubyInstallContent">
+                  <div class="tab-pane fade show active" id="unix" role="tabpanel" aria-labelledby="unix-tab">
+                    <div class="tab-sub-content-header">
+                      <h4>Install Ruby in Linux or macOS (preferred)</h4>
+                      <p>
+                        <strong>NOTE:</strong> This method is preferred as we have experienced many issues while using
+                        System's Ruby that comes by default.
+                      </p>
+                    </div>
+                    <div class="tab-sub-content-main">
+                      <ol>
+                        <li>Visit <a href="https://rvm.io/" class="text-success" target="_blank">RVM website</a></li>
+                        <li>Install GPG keys</li>
+                        <li>Install Ruby
+                          <blockquote class="bg-dark p-1 pl-2 text-white">
+                            \curl -sSL https://get.rvm.io | bash -s stable
+                          </blockquote>
+                        </li>
+                        <li>
+                          <span class="text-white font-weight-bold">[ IMPORTANT ]</span>
+                          Run the "source" command which you get at the end of above install command.
+                          It will look similar as highlighted in the screenshot.
+                          <br>
+                          <img src="/assets/img/ruby-install-source.jpg" class="img-fluid" alt="loading ...">
+                        </li>
+                        <li>Verify your installation by checking the version
+                          <blockquote class="bg-dark p-1 pl-2 text-white">ruby -v</blockquote>
+                          and make sure it is the same Ruby version which you installed via RVM
+                          <blockquote class="bg-dark p-1 pl-2 text-white">which ruby</blockquote>
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="windows" role="tabpanel" aria-labelledby="windows-tab">
+                    <div class="tab-sub-content-header">
+                      <h4>Install Ruby in Windows</h4>
+                    </div>
+                    <div class="tab-sub-content-main">
+                      <ol>
+                        <li>
+                          Visit <a href="https://rubyinstaller.org/downloads/" class="text-success" target="_blank">RubyInstaller</a>
+                          downloads page and click on <span class="text-info">Ruby+Devkit 2.7.1-1 (x64).</span>
+                          <br>
+                          <strong>NOTE:</strong> If you have 32 Bit machine, install
+                          <span class="text-info">Ruby+Devkit 2.7.1-1 (x86).</span>
+                        </li>
+                        <li>Open the binary and install it</li>
+                        <li>Open command or powershell prompt and verify
+                          <blockquote class="bg-dark p-1 pl-2 text-white">
+                            ruby -v
+                          </blockquote>
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <h4 class="">#2 Install Jekyll Framework</h4>
+              <p>
+                Run the following command to install Jekyll in your machine
+                <blockquote class="bg-dark p-1 pl-2 text-white">gem install bundler jekyll</blockquote>
+                and verify by running following command
+                <blockquote class="bg-dark p-1 pl-2 text-white">jekyll -v</blockquote>
               </p>
-            </div>
-            <h4 class="">#1 Install Ruby language</h4>
-            <div class="tabs-wrapper bg-secondary mb-3">
-              <ul class="nav nav-tabs" id="rubyInstall" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link rounded-0 active" id="unix-tab" data-toggle="tab" href="#unix" role="tab"
-                    aria-controls="unix" aria-selected="true">Linux or macOS</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link rounded-0" id="windows-tab" data-toggle="tab" href="#windows" role="tab"
-                    aria-controls="windows" aria-selected="false">Windows</a>
-                </li>
-              </ul>
-              <div class="tab-content p-2 text-white-90" id="rubyInstallContent">
-                <div class="tab-pane fade show active" id="unix" role="tabpanel" aria-labelledby="unix-tab">
-                  <div class="tab-sub-content-header">
-                    <h4>Install Ruby in Linux or macOS (preferred)</h4>
-                    <p>
-                      <strong>NOTE:</strong> This method is preferred as we have experienced many issues while using
-                      System's Ruby that comes by default.
-                    </p>
-                  </div>
-                  <div class="tab-sub-content-main">
-                    <ol>
-                      <li>Visit <a href="https://rvm.io/" class="text-success" target="_blank">RVM website</a></li>
-                      <li>Install GPG keys</li>
-                      <li>Install Ruby
-                        <blockquote class="bg-dark p-1 pl-2 text-white">
-                          \curl -sSL https://get.rvm.io | bash -s stable
-                        </blockquote>
-                      </li>
-                      <li>
-                        <span class="text-white font-weight-bold">[ IMPORTANT ]</span>
-                        Run the "source" command which you get at the end of above install command.
-                        It will look similar as highlighted in the screenshot.
-                        <br>
-                        <img src="/assets/img/ruby-install-source.jpg" class="img-fluid" alt="loading ...">
-                      </li>
-                      <li>Verify your installation by checking the version
-                        <blockquote class="bg-dark p-1 pl-2 text-white">ruby -v</blockquote>
-                        and make sure it is the same Ruby version which you installed via RVM
-                        <blockquote class="bg-dark p-1 pl-2 text-white">which ruby</blockquote>
-                      </li>
-                    </ol>
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="windows" role="tabpanel" aria-labelledby="windows-tab">
-                  <div class="tab-sub-content-header">
-                    <h4>Install Ruby in Windows</h4>
-                  </div>
-                  <div class="tab-sub-content-main">
-                    <ol>
-                      <li>
-                        Visit <a href="https://rubyinstaller.org/downloads/" class="text-success" target="_blank">RubyInstaller</a>
-                        downloads page and click on <span class="text-info">Ruby+Devkit 2.7.1-1 (x64).</span>
-                        <br>
-                        <strong>NOTE:</strong> If you have 32 Bit machine, install
-                        <span class="text-info">Ruby+Devkit 2.7.1-1 (x86).</span>
-                      </li>
-                      <li>Open the binary and install it</li>
-                      <li>Open command or powershell prompt and verify
-                        <blockquote class="bg-dark p-1 pl-2 text-white">
-                          ruby -v
-                        </blockquote>
-                      </li>
-                    </ol>
-                  </div>
+
+              <h4 class="">#2 Install Jekyll Framework</h4>
+              <p>
+                Run the following command to install Jekyll in your machine
+                <blockquote class="bg-dark p-1 pl-2 text-white">gem install bundler jekyll</blockquote>
+                and verify by running following command
+                <blockquote class="bg-dark p-1 pl-2 text-white">jekyll -v</blockquote>
+              </p>
+
+              <h4 class="">#3 Git clone project repository</h4>
+              <p>
+                In order to run the project, you need to get the project source code in your machine.
+                <br>
+                Run the following command to clone the repository:
+                <blockquote class="bg-dark p-1 pl-2 text-white">git clone https://github.com/nepal-online-school/noswebsite</blockquote>
+              </p>
+
+              <h4 class="">#4 Run the project locally</h4>
+              <p>
+                Now you are ready with all the prerequisites required for running the project.
+                <ol>
+                  <li>
+                    Run the following command to install required gems (or packages)
+                    <blockquote class="bg-dark p-1 pl-2 text-white">bundle install</blockquote>
+                  </li>
+                  <li>
+                    Run the following command to start the Jekyll server
+                    <blockquote class="bg-dark p-1 pl-2 text-white">bundle exec jekyll serve</blockquote>
+                  </li>
+                  <li>
+                    Open the server url <a href="http://localhost:4000" target="_blank">http://localhost:4000</a>
+                    in your browser
+                  </li>
+                </ol>
+              </p>
+              <hr class="pb-3">
+              <div class="row justify-content-center">
+                <h4 class="">Video showing forking, cloning the project and running locally</h4>
+                <div class="col-md-7">
+                  {% include util/embed-youtube.html id="3ebBlzQMdII" %}
                 </div>
               </div>
             </div>
-
-            <h4 class="">#2 Install Jekyll Framework</h4>
-            <p>
-              Run the following command to install Jekyll in your machine
-              <blockquote class="bg-dark p-1 pl-2 text-white">gem install bundler jekyll</blockquote>
-              and verify by running following command
-              <blockquote class="bg-dark p-1 pl-2 text-white">jekyll -v</blockquote>
-            </p>
-
-            <h4 class="">#2 Install Jekyll Framework</h4>
-            <p>
-              Run the following command to install Jekyll in your machine
-              <blockquote class="bg-dark p-1 pl-2 text-white">gem install bundler jekyll</blockquote>
-              and verify by running following command
-              <blockquote class="bg-dark p-1 pl-2 text-white">jekyll -v</blockquote>
-            </p>
-
-            <h4 class="">#3 Git clone project repository</h4>
-            <p>
-              In order to run the project, you need to get the project source code in your machine.
-              <br>
-              Run the following command to clone the repository:
-              <blockquote class="bg-dark p-1 pl-2 text-white">git clone https://github.com/nepal-online-school/noswebsite</blockquote>
-            </p>
-
-            <h4 class="">#4 Run the project locally</h4>
-            <p>
-              Now you are ready with all the prerequisites required for running the project.
-              <ol>
-                <li>
-                  Run the following command to install required gems (or packages)
-                  <blockquote class="bg-dark p-1 pl-2 text-white">bundle install</blockquote>
-                </li>
-                <li>
-                  Run the following command to start the Jekyll server
-                  <blockquote class="bg-dark p-1 pl-2 text-white">bundle exec jekyll serve</blockquote>
-                </li>
-                <li>
-                  Open the server url <a href="http://localhost:4000" target="_blank">http://localhost:4000</a>
-                  in your browser
-                </li>
-              </ol>
-            </p>
-            <hr class="pb-3">
-            <div class="row justify-content-center">
-              <h4 class="">Video showing forking, cloning the project and running locally</h4>
-              <div class="col-md-7">
-                {% include util/embed-youtube.html id="3ebBlzQMdII" %}
-              </div>
+            <div class="tab-pane fade py-4" id="video-content" role="tabpanel" aria-labelledby="video-content-tab">
+              <a class="btn btn-secondary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSc4BpNJc2jj_yTRs1YJhaT8VFIgsn_qpQ02vAbhLn-hYwmTqw/viewform" target="_blank" role="button">Add Your Volunteering Details</a>
             </div>
-          </div>
-          <div class="tab-pane fade py-4" id="video-content" role="tabpanel" aria-labelledby="video-content-tab">
-            <a class="btn btn-secondary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSc4BpNJc2jj_yTRs1YJhaT8VFIgsn_qpQ02vAbhLn-hYwmTqw/viewform" target="_blank" role="button">Add Your Volunteering Details</a>
           </div>
         </div>
       </div>
     </div>
-
   </div>
 </main>

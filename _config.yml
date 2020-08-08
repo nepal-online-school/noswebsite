@@ -32,7 +32,7 @@ links:
     url: https://www.linkedin.com/in/nepalonlineschool-non-profit-project/
     icon: fab fa-linkedin
 
-google_analytics: # your google analytics id
+google_analytics: UA-172459355-2
 # Disqus Comments
 disqus:
   shortname: # disqus short name

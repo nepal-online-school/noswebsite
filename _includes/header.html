@@ -1,32 +1,32 @@
-<div class="container">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <a class="navbar-brand" href="/">
-      <div class="logo">
-        <img src="/assets/img/logo.png" alt="Logo ..." class="img-fluid" />
-      </div>
-  	</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
-    </button>
-    <div class="collapse navbar-collapse" data-wow-delay=".5s" id="navbarCollapse">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item{% if page.page_name == 'home' %} active{% endif %}">
-          <a class="nav-link" href="/">Home</a>
-        </li>
-        <li class="nav-item{% if page.page_name == 'about' %} active{% endif %}">
-          <a class="nav-link" href="/about/">About</a>
-        </li>
-        <li class="nav-item{% if page.page_name == 'grade6' %} active{% endif %}">
-          {% include grades-dropdown.html %}
-        </li>
-        <li class="nav-item{% if page.page_name == 'contact' %} active{% endif %}">
-          <a class="nav-link" href="/contact/">Contact</a>
-        </li>
-        <li class="nav-item{% if page.page_name == 'contribute' %} active{% endif %}">
-          <a class="nav-link" href="/contribute/">Contribute</a>
-        </li>
-      </ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+  <a class="navbar-brand" href="/">
+    <div class="logo">
+      <img src="/assets/img/logo.png" alt="Logo ..." class="img-fluid" />
     </div>
-  </nav>
-</div>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-bars"></i>
+  </button>
+  <div class="collapse navbar-collapse" data-wow-delay=".5s" id="navbarCollapse">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item{% if page.page_name == 'home' %} active{% endif %}">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item{% if page.page_name == 'about' %} active{% endif %}">
+        <a class="nav-link" href="/about/">About</a>
+      </li>
+      <li class="nav-item{% if page.page_name == 'grade6' %} active{% endif %}">
+        {% include grades-dropdown.html %}
+      </li>
+      <li class="nav-item{% if page.page_name == 'contact' %} active{% endif %}">
+        <a class="nav-link" href="/contact/">Contact</a>
+      </li>
+      <li class="nav-item{% if page.page_name == 'contribute' %} active{% endif %}">
+        <a class="nav-link" href="/contribute/">Contribute</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
