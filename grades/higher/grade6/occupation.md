@@ -10,10 +10,11 @@ parent:
   link: /grade6/
 permalink: /grade6/occupation/
 videos:
-  - id: p-_ZFYCfnoo
-    title: Unit1 Ch1,Professional Career Education | Occupation,Business & Technology Education Grade6 in Nepal
+  - title: Unit1 Chapter-1, Professional Career Education | Occupation,Business & Technology Education Grade6 in Nepal
+    id: p-_ZFYCfnoo
     contributor: Aashika Khanal
-  - id: GYifzPOJ8Hc
-    title: Unit-1 Chapter2 Traditional Occupations of Nepal | Class 6 Lecture Note in Nepali
+  - title: Unit-1 Chapter-2, Traditional Occupations of Nepal | Class 6 Lecture Note in Nepali by Aashika Khanal
+    id: GYifzPOJ8Hc
     contributor: Aashika Khanal
+
 ---
