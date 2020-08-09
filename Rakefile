@@ -1,3 +1,5 @@
+require 'net/http'
+require 'json'
 require 'jekyll'
 require_relative 'lib/youtube_playlist.rb'
 
@@ -16,5 +18,15 @@ task :clean do
 end
 
 task :playlist_videos do
+  include YoutubePlaylist
 
+  params = {
+    'key': ENV['key'],
+    'playlistId': ENV['playlist'],
+    'part': 'snippet',
+    'maxResults': 50
+  }
+
+  params.merge!('contributor': ENV['contributor']) if ENV['contributor']
+  YoutubePlaylist.videos(params)
 end
