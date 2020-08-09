@@ -10,13 +10,13 @@ parent:
   link: /grade6/
 permalink: /grade6/computer/
 videos:
-  - title: Class 6 computer |Chapter 1  |Introduction to Computer | Computer Overview|Components of Computer
+  - title: Class 6 computer | Chapter 1  |Introduction to Computer | Computer Overview | Components of Computer
     id: NAD99XpO9w8
     contributor: Subash Chaudhary
   - title: Class 6 computer | Chapter 1 |Types of Computer |in Nepali |Analog, Digital computer|Super Computer
     id: X0mukUwnU1Q
     contributor: Subash Chaudhary
-  - title: Class 6 Computer | chapter 1 | History of computer |Abacus,Slide rule, UNIVAC | Grade 8 |in nepali
+  - title: Class 6 Computer | Chapter 1 | History of computer | Abacus,Slide rule, UNIVAC | Grade 8 |in nepali
     id: 7n8djBT2zCk
     contributor: Subash Chaudhary
   - title: Class 6 Computer | Chapter 2 | in nepali | Computer Peripherals |Input and output devices |grade 8
@@ -40,7 +40,7 @@ videos:
   - title: Class 6 computer |Chapter 5 | Computer Network and Internet | Computer Network Types|LAN , MAN,WAN
     id: _DhLJ8n0KVQ
     contributor: Subash Chaudhary
-  - title: Class 6 computer | chapter 5 | Computer Network and Internet Internet| in nepali, Internet Terminal
+  - title: Class 6 computer | Chapter 5 | Computer Network and Internet Internet| in nepali, Internet Terminal
     id: eTrTTkC9GqM
     contributor: Subash Chaudhary
   - title: Class 6 computer| Chapter 6 |computer virus in Nepali |Boot sector, Program, macros,stealth virus
@@ -61,7 +61,7 @@ videos:
   - title: Class 6 computer | Chapter 10 | Operating system | in Nepali | Windows basic Tutorial | grade 6
     id: D07U2ivcN3M
     contributor: Subash Chaudhary
-  - title: Class 6 computer | chapter 11| Word processing Practical |MS word |   grade 6 Computer| in Nepali
+  - title: Class 6 computer | Chapter 11| Word processing Practical |MS word |   grade 6 Computer| in Nepali
     id: 9UuWYm9sunU
     contributor: Subash Chaudhary
   - title: Class 6 Computer | Chapter 12 | PowerPoint Presentation Practical | in Nepali | grade 5 Computer
