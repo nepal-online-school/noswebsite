@@ -2,3 +2,4 @@ vendor
 _site
 Gemfile.lock
 .jekyll-cache/*
+videos.yml

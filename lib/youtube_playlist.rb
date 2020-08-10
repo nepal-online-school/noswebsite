@@ -1,23 +1,46 @@
 # Youtube Playlist
 module YoutubePlaylist
+  FILE_NAME = 'videos.yml'
 
   YOUTUBE_BASE_URL = 'https://www.googleapis.com/youtube/v3/playlistItems'
 
   def videos(params)
-    contributor_hash = Hash.new
+    contributor_hash = {}
     if params.key? :contributor
       contributor_hash.merge!('contributor': params[:contributor])
       params.delete(:contributor)
     end
 
-    puts "Params: ", params
     response = response_hash(params)
-    videos_hash = build_videos_hash(response, contributor_hash)
-    print_yml(videos_hash)
+    videos_hash = if response['pageInfo']['totalResults'] >= 50
+                    videos_from_multi_page(response, params, contributor_hash)
+                  else
+                    build_videos_hash(response, contributor_hash)
+                  end
+    write_to_file(videos_hash)
   end
 
-  def print_yml(hash)
-    puts hash.to_yaml
+  def videos_from_multi_page(response, params, contributor_hash)
+    videos_hash = []
+
+    until page_token(response).nil?
+      videos_hash += build_videos_hash(response, contributor_hash)
+      params.merge!(pageToken: response['nextPageToken']) unless response['nextPageToken'].nil?
+      response = response_hash(params)
+    end
+
+    # for last page
+    videos_hash += build_videos_hash(response, contributor_hash) unless response['prevPageToken'].nil?
+    videos_hash
+  end
+
+  def page_token(response)
+    return response['nextPageToken'] if response['nextPageToken']
+  end
+
+  def write_to_file(hash)
+    File.open(FILE_NAME, 'w') { |file| file.write(hash.to_yaml) }
+    puts "Video entries added to #{FILE_NAME} successfully."
   end
 
   def build_videos_hash(response, contributor_hash)
