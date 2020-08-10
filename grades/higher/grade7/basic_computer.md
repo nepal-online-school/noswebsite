@@ -1,14 +1,14 @@
 ---
 title: Basic Computer
 layout: course
-page_name: grade8
+page_name: grade7
 description: |
-  Class 8 Basic Computer notes, homework, video classes in Nepali language
+  Class 7 Basic Computer notes, homework, video classes in Nepali language
 tags: higher
 parent:
-  title: Grade 8
-  link: /grade8/
-permalink: /grade8/basic_computer/
+  title: Grade 7
+  link: /grade7/
+permalink: /grade7/basic_computer/
 videos:
   - id: gIW-3rU6M0g
     title: Class 6,7,8,9 Computer Science | Algorithm and Flowchart in Nepali Language
