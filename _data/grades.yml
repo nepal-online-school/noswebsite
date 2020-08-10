@@ -62,6 +62,8 @@ grade7:
       url: grade7/science
     - title: Social
       url: grade7/social
+    - title: Basic Computer
+      url: grade7/basic_computer
     - title: Computer
       url: grade7/computer
 grade8:
