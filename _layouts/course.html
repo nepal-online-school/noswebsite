@@ -34,8 +34,8 @@ layout: default
           {% include notice-bar.html %}
           <br>
           {% if page.content_type != "class_syllabus" %}
-            <h1 class="header-title">{{ page.title }}</h1>
-            <h3 class="header-description">{{ page.description }}</h3>
+            <h2 class="header-title mt-2">{{ page.page_name | capitalize }} {{ page.title }}</h2>
+            <h4 class="header-description">{{ page.description }}</h4>
 
             <hr>
 
