@@ -64,7 +64,7 @@ Now you are ready with all the  prerequisites required for running the project.
     ```bundle install```
 2. Start the jekyll server by hitting
     ```bundle exec jekyll serve```
-3. Open your browser and get to http://127.0.0.1:400 or https://localhost:4000
+3. Open your browser and get to http://127.0.0.1:400 or http://localhost:4000
 
 # Wrapping everything
 Heres a video to wrap the process mentioned above. [Goto Video](https://youtu.be/3ebBlzQMdII)
