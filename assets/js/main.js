@@ -49,7 +49,7 @@ function updateVideo(src) {
 (function($) {
   'use strict';
 
-  // next and previous video buttons action handler 
+  // next and previous video buttons action handler
   $('.next-btn, .prev-btn').click(function(){
     var id = $(this).data("videoid");
     var src = "https://www.youtube.com/embed/" + id + "?rel=0"
@@ -72,11 +72,23 @@ function updateVideo(src) {
     $(this).addClass('active');
     var id = $(this).attr('id').replace(/playlist-/, '');
     var src = "https://www.youtube.com/embed/" + id + "?rel=0"
-    
+
     // hide all buttons
     $('.video-nav-actions > div').addClass('d-none');
     // remove next item d-none
     $('#video-'+id).removeClass('d-none');
     updateVideo(src);
+  });
+
+  // Language switch
+  $('.language-switch-section .btn').on("click", function (e) {
+    let new_path;
+
+    if (location.pathname.indexOf("np") != -1) {
+      new_path = "/";
+    } else {
+      new_path = "/np";
+    }
+    window.location.href = new_path;
   });
 }(jQuery));

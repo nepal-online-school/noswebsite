@@ -1,30 +1,40 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container">
-  <a class="navbar-brand" href="/">
+  <a class="navbar-brand" href="{{ site.baseurl }}/">
     <div class="logo">
       <img src="/assets/img/logo.png" alt="Logo ..." class="img-fluid" />
     </div>
   </a>
+
+  <div class="language-switch-section mx-auto text-center">
+    <a id="btn-nepali" role="button"
+      class="btn btn-sm ml-2 px-3{% if site.lang != 'en' %} hide{% endif %}">
+      <img src="{{ site.url}}/assets/img/nepal-flag.png" class="mr-2" />नेपाली</a>
+    <a id="btn-english" role="button"
+      class="btn btn-sm ml-2 px-3{% if site.lang == 'en' %} hide{% endif %}">
+      <img src="{{ site.url}}/assets/img/britain-flag.png" class="mr-2" />English</a>
+  </div>
+
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-bars"></i>
   </button>
   <div class="collapse navbar-collapse" data-wow-delay=".5s" id="navbarCollapse">
-    <ul class="navbar-nav mx-auto">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item{% if page.page_name == 'home' %} active{% endif %}">
-        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="{{ site.baseurl }}/">{% t site.navbar.home %}</a>
       </li>
       <li class="nav-item{% if page.page_name == 'about' %} active{% endif %}">
-        <a class="nav-link" href="/about/">About</a>
+        <a class="nav-link" href="{{ site.baseurl }}/about/">{% t site.navbar.about %}</a>
       </li>
       <li class="nav-item{% if page.page_name == 'grade6' %} active{% endif %}">
         {% include grades-dropdown.html %}
       </li>
       <li class="nav-item{% if page.page_name == 'contact' %} active{% endif %}">
-        <a class="nav-link" href="/contact/">Contact</a>
+        <a class="nav-link" href="{{ site.baseurl }}/contact/">{% t site.navbar.contact %}</a>
       </li>
       <li class="nav-item{% if page.page_name == 'contribute' %} active{% endif %}">
-        <a class="nav-link" href="/contribute/">Contribute</a>
+        <a class="nav-link" href="{{ site.baseurl }}/contribute/">{% t site.navbar.contribute %}</a>
       </li>
     </ul>
   </div>

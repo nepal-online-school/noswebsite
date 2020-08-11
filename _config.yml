@@ -37,6 +37,18 @@ google_analytics: UA-172459355-2
 disqus:
   shortname: # disqus short name
 
+languages: ["en", "np"]
+exclude_from_localizations:
+  - assets
+  - script
+  - README.md
+  - lib
+  - LICENSE
+  - VERSION
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+
 logo_pixels: 34
 color: "#6d161e"
 # color: "#8c1515" # primary color for header, buttons
@@ -69,3 +81,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+plugins:
+  - jekyll-multiple-languages-plugin

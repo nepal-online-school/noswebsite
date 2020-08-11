@@ -1,0 +1,10 @@
+site:
+  navbar:
+    home: होमपेज
+    about: हाम्रोबारे
+    contact: सम्पर्क-गर्नु
+    contribute: योगदान-दिनुहोस्
+    grades: सबै-गरेडहरू
+
+  others:
+    notice: वेबसाइटको विकास प्रगतिमा छ।

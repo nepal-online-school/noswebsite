@@ -1,0 +1,10 @@
+site:
+  navbar:
+    home: Home
+    about: About
+    contact: Contact Us
+    contribute: Contribute
+    grades: All Grades
+
+  others:
+    notice: The development of website is under progress.

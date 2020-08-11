@@ -1,12 +1,12 @@
 <div class="dropdown grades-menu">
   <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    All Grades
+    {% t site.navbar.grades %}
   </a>
 
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
     {% for grade_hash in site.data.grades %}
       {% assign grade = grade_hash[1] %}
-      <a class="dropdown-item" href="/{{ grade.url }}">{{ grade.name }}</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/{{ grade.url }}">{{ grade.name }}</a>
     {% endfor %}
   </div>
 </div>
