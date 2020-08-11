@@ -19,7 +19,7 @@ With dedicated and hardworking mentors, we have created quality videos from acad
 2. Install GPG keys
 3. Install Ruby
 
-        ```\curl -sSL https://get.rvm.io | bash -s stable```
+        \curl -sSL https://get.rvm.io | bash -s stable
 
 4. **Important** Run the `source` command which you get at the end of above install command. It will look similar as highlighted in the screenshot.
 
@@ -27,10 +27,10 @@ With dedicated and hardworking mentors, we have created quality videos from acad
 
 5. Verify your installation by checking the version
 
-        ```ruby -v```
+        ruby -v
 6. And make sure it is the same tuby version which is installed from RVM
 
-        ```which ruby```
+        which ruby
 7. You can skip [installation on windows]() and proceed to [installing Jekyll Framework]()
 
     
@@ -43,7 +43,7 @@ With dedicated and hardworking mentors, we have created quality videos from acad
 2. Launch the Executable and proceed as guided by installer
 3. Open Command Prompt and verify installation by
     
-        ```ruby -v```
+        ruby -v
 4. Now you can proceed to [Installing Jekyll Framework]()
 
 
