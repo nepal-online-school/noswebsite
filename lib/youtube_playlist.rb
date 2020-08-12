@@ -12,6 +12,8 @@ module YoutubePlaylist
     end
 
     response = response_hash(params)
+    return puts "Error: #{response['error']['message']}" if response['error']
+
     videos_hash = if response['pageInfo']['totalResults'] >= 50
                     videos_from_multi_page(response, params, contributor_hash)
                   else
@@ -47,10 +49,11 @@ module YoutubePlaylist
     response['items'].map do |item|
       video_hash = {
         'title' => item['snippet']['title'],
-        'id' => item['snippet']['resourceId']['videoId']
+        'id' => item['snippet']['resourceId']['videoId'],
+        'contributor' => 'NOS Teacher'
       }
 
-      video_hash.merge!('contributor' => contributor_hash[:contributor]) if contributor_hash.length.positive?
+      video_hash['contributor'] = contributor_hash[:contributor] if contributor_hash.length.positive?
       video_hash
     end
   end
