@@ -54,6 +54,8 @@ grade6:
       url: grade6/basic_computer
     - title: Computer
       url: grade6/computer
+    - title: Social Studies
+      url: grade6/social
 grade7:
   name: Grade 7
   url: grade7/
@@ -66,6 +68,8 @@ grade7:
       url: grade7/basic_computer
     - title: Computer
       url: grade7/computer
+    - title: Maths
+      url: grade7/maths
 grade8:
   name: Grade 8
   url: grade8/

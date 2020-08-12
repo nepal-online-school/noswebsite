@@ -85,5 +85,16 @@ videos:
   - title: Class 6 Science | Weather grade 6 Science in Nepali | Science weather NepalOnline School Grade6
     id: eOG2dVJ5RcI
     contributor: NOS Teacher
-
+  - title: Class 6 Solar System | Grade 6 Solar System in Nepali | Nepal Online School
+      Free School Education
+    id: 58111no6AKE
+    contributor: NOS Teacher
+  - title: Class 6 Environment & its Importance in Nepali | Grade 6 Science Notes |
+      NepalOnlineSchool NonProfit
+    id: IXP3XE9CEUk
+    contributor: NOS Teacher
+  - title: Environmental Degradation and its Conservation | Class 6 science notes, lecture
+      videos in Nepali
+    id: f0pIRjMoMXo
+    contributor: NOS Teacher
 ---
