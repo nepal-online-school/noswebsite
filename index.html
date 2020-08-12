@@ -10,9 +10,9 @@ include_footer: true
   {% include notice-bar.html %}
   <div class="container">
     <!-- Primary -->
-    <h1 class="text-center mb-4">Grades</h1>
-
-    <div class="row">
+    <h1 class="text-center mb-0 mt-5">Grades</h1>
+    <p class="total-videos text-center text-muted">( <strong>2593</strong> Videos)</p>
+    <div class="row mt-4">
       {% for grade_hash in site.data.grades %}
         {% assign grade = grade_hash[1] %}
         <div class="col-md-3 col-6 mb-4">
