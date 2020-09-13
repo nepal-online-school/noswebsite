@@ -1,0 +1,45 @@
+---
+layout: default
+title: Team
+permalink: /team/
+page_name: team
+include_footer: true
+---
+
+<div class="contribute-page page-margin">
+  {% include notice-bar.html %}
+
+  <div class="py-6">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <h1 class="mb-0">Our Team Members</h1>
+          <p>"Alone we can do so little, together we can do so much." -- Helen Keller</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center text-center mt-4">
+        {% for member in site.data.team %}
+          <div class="col-md-3 mb-5">
+            <div class="card shadow">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold mb-0">{{ member.name }}</h5>
+                <h6 class="card-title mb-0">{{ member.role }}</h6>
+                {% for link in member.links %}
+                  {% if link["facebook"] %}
+                    <a href="{{ link['facebook'] }}" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  {% endif %}
+                  {% if link["linkedin"] %}
+                    <a href="{{ link['linkedin'] }}" target="_blank"><i class="fab fa-linkedin-in ml-2"></i></a>
+                  {% endif %}
+                {% endfor %}
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
