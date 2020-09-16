@@ -6,14 +6,14 @@
     </div>
   </a>
 
-  <div class="language-switch-section mx-auto text-center">
+  <!-- <div class="language-switch-section mx-auto text-center">
     <a id="btn-nepali" role="button"
       class="btn btn-sm ml-2 px-3{% if site.lang != 'en' %} hide{% endif %}">
       <img src="{{ site.url}}/assets/img/nepal-flag.png" class="mr-2" />नेपाली</a>
     <a id="btn-english" role="button"
       class="btn btn-sm ml-2 px-3{% if site.lang == 'en' %} hide{% endif %}">
       <img src="{{ site.url}}/assets/img/britain-flag.png" class="mr-2" />English</a>
-  </div>
+  </div> -->
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,8 +27,11 @@
       <li class="nav-item{% if page.page_name == 'about' %} active{% endif %}">
         <a class="nav-link" href="{{ site.baseurl }}/about/">{% t site.navbar.about %}</a>
       </li>
-      <li class="nav-item{% if page.page_name == 'grade6' %} active{% endif %}">
+      <li class="nav-item{% if page.layout == 'course' %} active{% endif %}">
         {% include grades-dropdown.html %}
+      </li>
+      <li class="nav-item{% if page.page_name == 'courses' %} active{% endif %}">
+        {% include courses-dropdown.html %}
       </li>
       <li class="nav-item{% if page.page_name == 'contact' %} active{% endif %}">
         <a class="nav-link" href="{{ site.baseurl }}/contact/">{% t site.navbar.contact %}</a>

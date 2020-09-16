@@ -1,0 +1,14 @@
+<div class="dropdown grades-menu">
+  <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Courses
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    {% assign courses = site.data.courses.youtube %}
+    {% assign courses = courses | concat: site.data.courses.website %}
+    {% for course in courses %}
+      {% capture url %}{% if course.channel %}{{ course.channel }}{% else %}{{ site.baseurl }}/{{ course.url }}{% endif %}{% endcapture %}
+      <a class="dropdown-item" href="{{ url }}">{{ course.title }}</a>
+    {% endfor %}
+  </div>
+</div>

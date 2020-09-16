@@ -1,0 +1,29 @@
+youtube:
+  - title: Windows 10 Course
+    # url: courses/windows_10
+    channel: https://www.youtube.com/playlist?list=PLztdBcd3--U2rPB7IZqvupkXArhV0JUAw
+  - title: IP Subnetting
+    channel: https://www.youtube.com/playlist?list=PLztdBcd3--U1e9wAD9jP-DJjCm9T16wov
+  - title: Ethical Hacking(School level)
+    channel: https://www.youtube.com/playlist?list=PLztdBcd3--U0sIKPFzPUuxnvSaKThZA5n
+  - title: Computer Hardware
+    channel: https://www.youtube.com/playlist?list=PLztdBcd3--U2Y-VFKPjCj9wR05hgC_uTu
+  - title: C Programming
+    channel: https://www.youtube.com/playlist?list=PLztdBcd3--U13uQIMtWHRDjm1a76rgKAa
+website:
+  - title: Git and GitHub
+    url: courses/git-github
+  # subjects:
+  #   - title: Maths
+  #     url: grade10/maths
+  #   - title: Optional Maths
+  #     url: grade10/optional_maths
+  #   - title: Science
+  #     url: grade10/science
+  #   - title: Science Biology
+  #     url: grade10/biology
+  #   - title: Computer
+  #     url: grade10/computer
+  #   - title: Account
+  #     url: grade10/account
+  #   - title: English
