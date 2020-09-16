@@ -20,5 +20,15 @@ include_footer: true
         </div>
       {% endfor %}
     </div>
+
+    <h1 class="text-center mb-0 mt-5">Courses</h1>
+    <p class="total-videos text-center text-muted">( <strong>2593</strong> Videos)</p>
+    <div class="row mt-4">
+      {% for course in site.data.courses %}
+        <div class="col-md-3 col-6 mb-4">
+          {% include grade-card.html grade=course %}
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </section>

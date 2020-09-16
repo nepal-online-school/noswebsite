@@ -1,11 +1,11 @@
 grade1:
-  name: Grade 1
+  title: Grade 1
   url: grade1/
   subjects:
     - title: Computer
       url: grade1/computer
 grade2:
-  name: Grade 2
+  title: Grade 2
   url: grade2/
   subjects:
     - title: Science
@@ -15,7 +15,7 @@ grade2:
     - title: Computer
       url: grade2/computer
 grade3:
-  name: Grade 3
+  title: Grade 3
   url: grade3/
   subjects:
     - title: Science
@@ -23,7 +23,7 @@ grade3:
     - title: Health Education
       url: grade3/health_education
 grade4:
-  name: Grade 4
+  title: Grade 4
   url: grade4/
   subjects:
     - title: Science
@@ -31,7 +31,7 @@ grade4:
     - title: Computer
       url: grade4/computer
 grade5:
-  name: Grade 5
+  title: Grade 5
   url: grade5/
   subjects:
     - title: Maths
@@ -41,7 +41,7 @@ grade5:
     - title: Computer
       url: grade5/computer
 grade6:
-  name: Grade 6
+  title: Grade 6
   url: grade6/
   subjects:
     - title: Maths
@@ -57,7 +57,7 @@ grade6:
     - title: Social Studies
       url: grade6/social
 grade7:
-  name: Grade 7
+  title: Grade 7
   url: grade7/
   subjects:
     - title: Science
@@ -71,7 +71,7 @@ grade7:
     - title: Maths
       url: grade7/maths
 grade8:
-  name: Grade 8
+  title: Grade 8
   url: grade8/
   subjects:
     - title: Maths
@@ -91,7 +91,7 @@ grade8:
     - title: Computer
       url: grade8/computer
 grade9:
-  name: Grade 9
+  title: Grade 9
   url: grade9/
   subjects:
     - title: Maths
@@ -111,7 +111,7 @@ grade9:
     - title: Account
       url: grade9/account
 grade10:
-  name: Grade 10
+  title: Grade 10
   url: grade10/
   subjects:
     - title: Maths

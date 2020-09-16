@@ -11,13 +11,13 @@
   <nav class="collapse td-sidebar-nav pt-5 mx-auto" id="td-section-nav">
     <ul class="td-sidebar-nav__section pr-md-3">
       <li class="td-sidebar-nav__section-title d-none d-sm-block">
-        <a  href="/{{ site.baseurl }}{{ site.data.grades[grade].url }}"
+        <a  href="/{% if grade == 'courses' %}courses/{% else %}{{ site.data.grades[grade].url }}{% endif %}"
           class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">{{ grade | capitalize }} {% if grade != "courses" %}Subjects{% endif %}
         </a>
       </li>
 
       {% if grade == "courses" %}
-        {% assign items = site.data.courses.website %}
+        {% assign items = site.data.courses %}
       {% else %}
         {% assign items = site.data.grades[grade].subjects %}
       {% endif %}

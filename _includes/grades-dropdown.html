@@ -6,7 +6,7 @@
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
     {% for grade_hash in site.data.grades %}
       {% assign grade = grade_hash[1] %}
-      <a class="dropdown-item" href="{{ site.baseurl }}/{{ grade.url }}">{{ grade.name }}</a>
+      <a class="dropdown-item" href="{{ site.baseurl }}/{{ grade.url }}">{{ grade.title }}</a>
     {% endfor %}
   </div>
 </div>

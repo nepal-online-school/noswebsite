@@ -4,9 +4,7 @@
   </a>
 
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    {% assign courses = site.data.courses.youtube %}
-    {% assign courses = courses | concat: site.data.courses.website %}
-    {% for course in courses %}
+    {% for course in site.data.courses %}
       {% capture url %}{% if course.channel %}{{ course.channel }}{% else %}{{ site.baseurl }}/{{ course.url }}{% endif %}{% endcapture %}
       <a class="dropdown-item" href="{{ url }}">{{ course.title }}</a>
     {% endfor %}

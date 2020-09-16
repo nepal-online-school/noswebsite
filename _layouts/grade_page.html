@@ -13,7 +13,7 @@ layout: course
 <!-- Setting Grade name-->
 {% assign grade = page.page_name %}
 {% if grade == "courses" %}
-  {% assign items = site.data.courses.website %}
+  {% assign items = site.data.courses %}
 {% else %}
   {% assign items = site.data.grades[grade].subjects %}
 {% endif %}
