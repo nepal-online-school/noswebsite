@@ -1,9 +1,4 @@
 youtube:
-  - title: Windows 10 Course
-    # url: courses/windows_10
-    channel: https://www.youtube.com/playlist?list=PLztdBcd3--U2rPB7IZqvupkXArhV0JUAw
-  - title: IP Subnetting
-    channel: https://www.youtube.com/playlist?list=PLztdBcd3--U1e9wAD9jP-DJjCm9T16wov
   - title: Ethical Hacking(School level)
     channel: https://www.youtube.com/playlist?list=PLztdBcd3--U0sIKPFzPUuxnvSaKThZA5n
   - title: Computer Hardware
@@ -11,8 +6,18 @@ youtube:
   - title: C Programming
     channel: https://www.youtube.com/playlist?list=PLztdBcd3--U13uQIMtWHRDjm1a76rgKAa
 website:
+  - title: Windows 10 Course
+    url: courses/windows10
+  - title: IP Subnetting
+    url: courses/ip-subnetting
   - title: Git and GitHub
     url: courses/git-github
+  - title: Ethical Hacking(School level)
+    url: courses/ethical-hacking-school
+  - title: Computer Hardware
+    url: courses/computer-hardware
+  - title: C Programming
+    url: courses/c
   # subjects:
   #   - title: Maths
   #     url: grade10/maths

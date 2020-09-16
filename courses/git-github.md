@@ -4,7 +4,7 @@ page_name: courses
 layout: course
 tags: course
 description: |
-  Git and GitHub fundamental course in Nepali
+  Learn the essential Git and GitHub fundamental course in Nepali
 parent:
   title: Courses
   link: /courses/

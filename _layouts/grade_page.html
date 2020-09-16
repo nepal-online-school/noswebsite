@@ -12,14 +12,19 @@ layout: course
 
 <!-- Setting Grade name-->
 {% assign grade = page.page_name %}
+{% if grade == "courses" %}
+  {% assign items = site.data.courses.website %}
+{% else %}
+  {% assign items = site.data.grades[grade].subjects %}
+{% endif %}
 
-{% if site.data.grades[grade].subjects.size > 0 %}
+{% if items.size > 0 %}
   <div class="mt-5">
     <h2>Subjects</h2>
   </div>
   <hr class="panel-line mt-4 mb-5">
   <div class="card-columns">
-    {% for subject in site.data.grades[grade].subjects %}
+    {% for subject in items %}
       <a href="{{ site.baseurl }}/{{ subject.url }}">
         <div class="card subject-card rounded-0">
           <div class="card-header">
