@@ -47,7 +47,10 @@ With dedicated and hardworking mentors, we have created quality videos from acad
 
 ## Contributing
 
-We encourage you to contribute to Nepal Online School!
+Nepal Online School welcomes contributions to our website on Github.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more detail.
+
 Join us in this movement of providing __Free Education__ to our Nepalese brothers and sisters.
 
 ## License
