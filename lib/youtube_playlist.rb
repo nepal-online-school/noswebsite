@@ -19,7 +19,12 @@ module YoutubePlaylist
                   else
                     build_videos_hash(response, contributor_hash)
                   end
-    write_to_file(videos_hash)
+
+    if params[:console] == 'true'
+      puts videos_hash.to_yaml
+    else
+      write_to_file(videos_hash)
+    end
   end
 
   def videos_from_multi_page(response, params, contributor_hash)
