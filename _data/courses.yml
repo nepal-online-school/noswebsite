@@ -10,17 +10,6 @@
   url: courses/computer-hardware
 - title: C Language
   url: courses/c
-  # subjects:
-  #   - title: Maths
-  #     url: grade10/maths
-  #   - title: Optional Maths
-  #     url: grade10/optional_maths
-  #   - title: Science
-  #     url: grade10/science
-  #   - title: Science Biology
-  #     url: grade10/biology
-  #   - title: Computer
-  #     url: grade10/computer
-  #   - title: Account
-  #     url: grade10/account
-  #   - title: English
+# copy below and paste above and update accordingly
+# - title: Course Title
+#   url: courses/course-url-path

@@ -132,3 +132,12 @@ grade10:
       url: grade10/english
     - title: Environment Science
       url: grade10/environment_science
+# copy below and paste above and update accordingly
+# grade-name:
+#   title: Grade Name
+#   url: grade-url/
+#   subjects:
+#     - title: Subject 1
+#       url: /grade-url/subject1
+#     - title: Subject 2
+#       url: /grade-url/subject2
