@@ -52,7 +52,7 @@ function updateVideo(src) {
   // next and previous video buttons action handler
   $('.next-btn, .prev-btn').click(function(){
     var id = $(this).data("videoid");
-    var src = "https://www.youtube.com/embed/" + id + "?rel=0"
+    var src = "https://www.youtube.com/embed/" + id + "?rel=0&autoplay=1"
 
     // hide the current button parent div
     $(this).parent().addClass('d-none');
