@@ -24,8 +24,8 @@
       <li class="nav-item{% if page.page_name == 'home' %} active{% endif %}">
         <a class="nav-link" href="{{ site.baseurl }}/">{% t site.navbar.home %}</a>
       </li>
-      <li class="nav-item{% if page.page_name == 'about' %} active{% endif %}">
-        <a class="nav-link" href="{{ site.baseurl }}/about/">{% t site.navbar.about %}</a>
+      <li class="nav-item{% if page.layout == 'course' and page.page_name != 'courses' %} active{% endif %}">
+        {% include about-dropdown.html %}
       </li>
       <li class="nav-item{% if page.layout == 'course' and page.page_name != 'courses' %} active{% endif %}">
         {% include grades-dropdown.html %}
